@@ -1,6 +1,7 @@
 docs
 beersj02_linux-bash-and-system-administration.pdf
 Shell_Scripting_Syllabus.docx
+Unix_Shell_Scripting.docx
 Bash_Shell_Scripting/Unix+Shell+Scripting.docx
 Basic_Shell_Scripts/*.doc
-Real_Life_Scripts/38_ping-hosts.txt
+Real_Life_Scripts/*.txt
