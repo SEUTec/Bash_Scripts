@@ -1,0 +1,1637 @@
+Sep 17 11:17:38 MySQLServer kernel: The list of certified hardware and cloud instances for Red Hat Enterprise Linux 9 can be viewed at the Red Hat Ecosystem Catalog, https://catalog.redhat.com.
+Sep 17 11:17:38 MySQLServer kernel: Command line: BOOT_IMAGE=(hd0,msdos1)/vmlinuz-5.14.0-364.el9.x86_64 root=/dev/mapper/cs-root ro crashkernel=1G-4G:192M,4G-64G:256M,64G-:512M resume=/dev/mapper/cs-swap rd.lvm.lv=cs/root rd.lvm.lv=cs/swap rhgb quiet
+Sep 17 11:17:38 MySQLServer kernel: [Firmware Bug]: TSC doesn't count with P0 frequency!
+Sep 17 11:17:38 MySQLServer kernel: x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Sep 17 11:17:38 MySQLServer kernel: x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Sep 17 11:17:38 MySQLServer kernel: x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Sep 17 11:17:38 MySQLServer kernel: x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Sep 17 11:17:38 MySQLServer kernel: x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Sep 17 11:17:38 MySQLServer kernel: signal: max sigframe size: 1776
+Sep 17 11:17:38 MySQLServer kernel: BIOS-provided physical RAM map:
+Sep 17 11:17:38 MySQLServer kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Sep 17 11:17:38 MySQLServer kernel: BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Sep 17 11:17:38 MySQLServer kernel: BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Sep 17 11:17:38 MySQLServer kernel: BIOS-e820: [mem 0x0000000000100000-0x00000000dffeffff] usable
+Sep 17 11:17:38 MySQLServer kernel: BIOS-e820: [mem 0x00000000dfff0000-0x00000000dfffffff] ACPI data
+Sep 17 11:17:38 MySQLServer kernel: BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Sep 17 11:17:38 MySQLServer kernel: BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Sep 17 11:17:38 MySQLServer kernel: BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Sep 17 11:17:38 MySQLServer kernel: BIOS-e820: [mem 0x0000000100000000-0x000000011fffffff] usable
+Sep 17 11:17:38 MySQLServer kernel: NX (Execute Disable) protection: active
+Sep 17 11:17:38 MySQLServer kernel: SMBIOS 2.5 present.
+Sep 17 11:17:38 MySQLServer kernel: DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Sep 17 11:17:38 MySQLServer kernel: Hypervisor detected: KVM
+Sep 17 11:17:38 MySQLServer kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+Sep 17 11:17:38 MySQLServer kernel: kvm-clock: using sched offset of 4984164495 cycles
+Sep 17 11:17:38 MySQLServer kernel: clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Sep 17 11:17:38 MySQLServer kernel: tsc: Detected 3493.434 MHz processor
+Sep 17 11:17:38 MySQLServer kernel: last_pfn = 0x120000 max_arch_pfn = 0x400000000
+Sep 17 11:17:38 MySQLServer kernel: Disabled
+Sep 17 11:17:38 MySQLServer kernel: x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Sep 17 11:17:38 MySQLServer kernel: CPU MTRRs all blank - virtualized system.
+Sep 17 11:17:38 MySQLServer kernel: x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+Sep 17 11:17:38 MySQLServer kernel: last_pfn = 0xdfff0 max_arch_pfn = 0x400000000
+Sep 17 11:17:38 MySQLServer kernel: found SMP MP-table at [mem 0x0009fff0-0x0009ffff]
+Sep 17 11:17:38 MySQLServer kernel: RAMDISK: [mem 0x313fd000-0x349f6fff]
+Sep 17 11:17:38 MySQLServer kernel: ACPI: Early table checksum verification disabled
+Sep 17 11:17:38 MySQLServer kernel: ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Sep 17 11:17:38 MySQLServer kernel: ACPI: XSDT 0x00000000DFFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Sep 17 11:17:38 MySQLServer kernel: ACPI: FACP 0x00000000DFFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Sep 17 11:17:38 MySQLServer kernel: ACPI: DSDT 0x00000000DFFF0620 002353 (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Sep 17 11:17:38 MySQLServer kernel: ACPI: FACS 0x00000000DFFF0200 000040
+Sep 17 11:17:38 MySQLServer kernel: ACPI: FACS 0x00000000DFFF0200 000040
+Sep 17 11:17:38 MySQLServer kernel: ACPI: APIC 0x00000000DFFF0240 00006C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Sep 17 11:17:38 MySQLServer kernel: ACPI: SSDT 0x00000000DFFF02B0 00036C (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Sep 17 11:17:38 MySQLServer kernel: ACPI: Reserving FACP table memory at [mem 0xdfff00f0-0xdfff01e3]
+Sep 17 11:17:38 MySQLServer kernel: ACPI: Reserving DSDT table memory at [mem 0xdfff0620-0xdfff2972]
+Sep 17 11:17:38 MySQLServer kernel: ACPI: Reserving FACS table memory at [mem 0xdfff0200-0xdfff023f]
+Sep 17 11:17:38 MySQLServer kernel: ACPI: Reserving FACS table memory at [mem 0xdfff0200-0xdfff023f]
+Sep 17 11:17:38 MySQLServer kernel: ACPI: Reserving APIC table memory at [mem 0xdfff0240-0xdfff02ab]
+Sep 17 11:17:38 MySQLServer kernel: ACPI: Reserving SSDT table memory at [mem 0xdfff02b0-0xdfff061b]
+Sep 17 11:17:38 MySQLServer kernel: No NUMA configuration found
+Sep 17 11:17:38 MySQLServer kernel: Faking a node at [mem 0x0000000000000000-0x000000011fffffff]
+Sep 17 11:17:38 MySQLServer kernel: NODE_DATA(0) allocated [mem 0x11ffd1000-0x11fffbfff]
+Sep 17 11:17:38 MySQLServer kernel: Reserving 256MB of memory at 3312MB for crashkernel (System RAM: 4095MB)
+Sep 17 11:17:38 MySQLServer kernel: Zone ranges:
+Sep 17 11:17:38 MySQLServer kernel:  DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Sep 17 11:17:38 MySQLServer kernel:  DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+Sep 17 11:17:38 MySQLServer kernel:  Normal   [mem 0x0000000100000000-0x000000011fffffff]
+Sep 17 11:17:38 MySQLServer kernel:  Device   empty
+Sep 17 11:17:38 MySQLServer kernel: Movable zone start for each node
+Sep 17 11:17:38 MySQLServer kernel: Early memory node ranges
+Sep 17 11:17:38 MySQLServer kernel:  node   0: [mem 0x0000000000001000-0x000000000009efff]
+Sep 17 11:17:38 MySQLServer kernel:  node   0: [mem 0x0000000000100000-0x00000000dffeffff]
+Sep 17 11:17:38 MySQLServer kernel:  node   0: [mem 0x0000000100000000-0x000000011fffffff]
+Sep 17 11:17:38 MySQLServer kernel: Initmem setup node 0 [mem 0x0000000000001000-0x000000011fffffff]
+Sep 17 11:17:38 MySQLServer kernel: On node 0, zone DMA: 1 pages in unavailable ranges
+Sep 17 11:17:38 MySQLServer kernel: On node 0, zone DMA: 97 pages in unavailable ranges
+Sep 17 11:17:38 MySQLServer kernel: On node 0, zone Normal: 16 pages in unavailable ranges
+Sep 17 11:17:38 MySQLServer kernel: ACPI: PM-Timer IO Port: 0x4008
+Sep 17 11:17:38 MySQLServer kernel: IOAPIC[0]: apic_id 4, version 32, address 0xfec00000, GSI 0-23
+Sep 17 11:17:38 MySQLServer kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Sep 17 11:17:38 MySQLServer kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Sep 17 11:17:38 MySQLServer kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+Sep 17 11:17:38 MySQLServer kernel: smpboot: Allowing 4 CPUs, 0 hotplug CPUs
+Sep 17 11:17:38 MySQLServer kernel: PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Sep 17 11:17:38 MySQLServer kernel: PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Sep 17 11:17:38 MySQLServer kernel: PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Sep 17 11:17:38 MySQLServer kernel: PM: hibernation: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Sep 17 11:17:38 MySQLServer kernel: PM: hibernation: Registered nosave memory: [mem 0xdfff0000-0xdfffffff]
+Sep 17 11:17:38 MySQLServer kernel: PM: hibernation: Registered nosave memory: [mem 0xe0000000-0xfebfffff]
+Sep 17 11:17:38 MySQLServer kernel: PM: hibernation: Registered nosave memory: [mem 0xfec00000-0xfec00fff]
+Sep 17 11:17:38 MySQLServer kernel: PM: hibernation: Registered nosave memory: [mem 0xfec01000-0xfedfffff]
+Sep 17 11:17:38 MySQLServer kernel: PM: hibernation: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+Sep 17 11:17:38 MySQLServer kernel: PM: hibernation: Registered nosave memory: [mem 0xfee01000-0xfffbffff]
+Sep 17 11:17:38 MySQLServer kernel: PM: hibernation: Registered nosave memory: [mem 0xfffc0000-0xffffffff]
+Sep 17 11:17:38 MySQLServer kernel: [mem 0xe0000000-0xfebfffff] available for PCI devices
+Sep 17 11:17:38 MySQLServer kernel: Booting paravirtualized kernel on KVM
+Sep 17 11:17:38 MySQLServer kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+Sep 17 11:17:38 MySQLServer kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:4 nr_cpu_ids:4 nr_node_ids:1
+Sep 17 11:17:38 MySQLServer kernel: percpu: Embedded 62 pages/cpu s217088 r8192 d28672 u524288
+Sep 17 11:17:38 MySQLServer kernel: kvm-guest: PV spinlocks enabled
+Sep 17 11:17:38 MySQLServer kernel: PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+Sep 17 11:17:38 MySQLServer kernel: Fallback order for Node 0: 0 
+Sep 17 11:17:38 MySQLServer kernel: Built 1 zonelists, mobility grouping on.  Total pages: 1031920
+Sep 17 11:17:38 MySQLServer kernel: Policy zone: Normal
+Sep 17 11:17:38 MySQLServer kernel: Kernel command line: BOOT_IMAGE=(hd0,msdos1)/vmlinuz-5.14.0-364.el9.x86_64 root=/dev/mapper/cs-root ro crashkernel=1G-4G:192M,4G-64G:256M,64G-:512M resume=/dev/mapper/cs-swap rd.lvm.lv=cs/root rd.lvm.lv=cs/swap rhgb quiet
+Sep 17 11:17:38 MySQLServer kernel: Unknown kernel command line parameters "rhgb BOOT_IMAGE=(hd0,msdos1)/vmlinuz-5.14.0-364.el9.x86_64", will be passed to user space.
+Sep 17 11:17:38 MySQLServer kernel: Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+Sep 17 11:17:38 MySQLServer kernel: Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+Sep 17 11:17:38 MySQLServer kernel: mem auto-init: stack:off, heap alloc:off, heap free:off
+Sep 17 11:17:38 MySQLServer kernel: software IO TLB: area num 4.
+Sep 17 11:17:38 MySQLServer kernel: Memory: 3355280K/4193848K available (16384K kernel code, 5596K rwdata, 11440K rodata, 3824K init, 18424K bss, 520864K reserved, 0K cma-reserved)
+Sep 17 11:17:38 MySQLServer kernel: random: get_random_u64 called from kmem_cache_open+0x1e/0x310 with crng_init=0
+Sep 17 11:17:38 MySQLServer kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Sep 17 11:17:38 MySQLServer kernel: ftrace: allocating 46191 entries in 181 pages
+Sep 17 11:17:38 MySQLServer kernel: ftrace: allocated 181 pages with 5 groups
+Sep 17 11:17:38 MySQLServer kernel: Dynamic Preempt: voluntary
+Sep 17 11:17:38 MySQLServer kernel: rcu: Preemptible hierarchical RCU implementation.
+Sep 17 11:17:38 MySQLServer kernel: rcu: #011RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=4.
+Sep 17 11:17:38 MySQLServer kernel: #011Trampoline variant of Tasks RCU enabled.
+Sep 17 11:17:38 MySQLServer kernel: #011Rude variant of Tasks RCU enabled.
+Sep 17 11:17:38 MySQLServer kernel: #011Tracing variant of Tasks RCU enabled.
+Sep 17 11:17:38 MySQLServer kernel: rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+Sep 17 11:17:38 MySQLServer kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+Sep 17 11:17:38 MySQLServer kernel: NR_IRQS: 524544, nr_irqs: 456, preallocated irqs: 16
+Sep 17 11:17:38 MySQLServer kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+Sep 17 11:17:38 MySQLServer kernel: kfence: initialized - using 2097152 bytes for 255 objects at 0x(____ptrval____)-0x(____ptrval____)
+Sep 17 11:17:38 MySQLServer kernel: random: crng init done
+Sep 17 11:17:38 MySQLServer kernel: Console: colour VGA+ 80x25
+Sep 17 11:17:38 MySQLServer kernel: printk: console [tty0] enabled
+Sep 17 11:17:38 MySQLServer kernel: ACPI: Core revision 20221020
+Sep 17 11:17:38 MySQLServer kernel: APIC: Switch to symmetric I/O mode setup
+Sep 17 11:17:38 MySQLServer kernel: x2apic enabled
+Sep 17 11:17:38 MySQLServer kernel: Switched APIC routing to physical x2apic.
+Sep 17 11:17:38 MySQLServer kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Sep 17 11:17:38 MySQLServer kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x325b15e89c7, max_idle_ns: 440795202126 ns
+Sep 17 11:17:38 MySQLServer kernel: Calibrating delay loop (skipped) preset value.. 6986.86 BogoMIPS (lpj=3493434)
+Sep 17 11:17:38 MySQLServer kernel: pid_max: default: 32768 minimum: 301
+Sep 17 11:17:38 MySQLServer kernel: LSM: initializing lsm=lockdown,capability,yama,integrity,selinux,bpf
+Sep 17 11:17:38 MySQLServer kernel: Yama: becoming mindful.
+Sep 17 11:17:38 MySQLServer kernel: SELinux:  Initializing.
+Sep 17 11:17:38 MySQLServer kernel: LSM support for eBPF active
+Sep 17 11:17:38 MySQLServer kernel: Mount-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Sep 17 11:17:38 MySQLServer kernel: Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Sep 17 11:17:38 MySQLServer kernel: Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 512
+Sep 17 11:17:38 MySQLServer kernel: Last level dTLB entries: 4KB 1536, 2MB 1536, 4MB 768, 1GB 0
+Sep 17 11:17:38 MySQLServer kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Sep 17 11:17:38 MySQLServer kernel: Spectre V2 : Mitigation: Retpolines
+Sep 17 11:17:38 MySQLServer kernel: Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Sep 17 11:17:38 MySQLServer kernel: Spectre V2 : Spectre v2 / SpectreRSB : Filling RSB on VMEXIT
+Sep 17 11:17:38 MySQLServer kernel: RETBleed: Mitigation: untrained return thunk
+Sep 17 11:17:38 MySQLServer kernel: Freeing SMP alternatives memory: 36K
+Sep 17 11:17:38 MySQLServer kernel: APIC calibration not consistent with PM-Timer: 105ms instead of 100ms
+Sep 17 11:17:38 MySQLServer kernel: APIC delta adjusted to PM-Timer: 6290411 (6645953)
+Sep 17 11:17:38 MySQLServer kernel: smpboot: CPU0: AMD Ryzen Threadripper 1920X 12-Core Processor (family: 0x17, model: 0x1, stepping: 0x1)
+Sep 17 11:17:38 MySQLServer kernel: cblist_init_generic: Setting adjustable number of callback queues.
+Sep 17 11:17:38 MySQLServer kernel: cblist_init_generic: Setting shift to 2 and lim to 1.
+Sep 17 11:17:38 MySQLServer kernel: cblist_init_generic: Setting shift to 2 and lim to 1.
+Sep 17 11:17:38 MySQLServer kernel: cblist_init_generic: Setting shift to 2 and lim to 1.
+Sep 17 11:17:38 MySQLServer kernel: Performance Events: PMU not available due to virtualization, using software events only.
+Sep 17 11:17:38 MySQLServer kernel: rcu: Hierarchical SRCU implementation.
+Sep 17 11:17:38 MySQLServer kernel: rcu: #011Max phase no-delay instances is 400.
+Sep 17 11:17:38 MySQLServer kernel: printk: console [tty0] printing thread started
+Sep 17 11:17:38 MySQLServer kernel: NMI watchdog: Perf NMI watchdog permanently disabled
+Sep 17 11:17:38 MySQLServer kernel: smp: Bringing up secondary CPUs ...
+Sep 17 11:17:38 MySQLServer kernel: x86: Booting SMP configuration:
+Sep 17 11:17:38 MySQLServer kernel: .... node  #0, CPUs:      #1 #2 #3
+Sep 17 11:17:38 MySQLServer kernel: smp: Brought up 1 node, 4 CPUs
+Sep 17 11:17:38 MySQLServer kernel: smpboot: Max logical packages: 1
+Sep 17 11:17:38 MySQLServer kernel: smpboot: Total of 4 processors activated (27947.47 BogoMIPS)
+Sep 17 11:17:38 MySQLServer kernel: node 0 deferred pages initialised in 2ms
+Sep 17 11:17:38 MySQLServer kernel: devtmpfs: initialized
+Sep 17 11:17:38 MySQLServer kernel: x86/mm: Memory block size: 128MB
+Sep 17 11:17:38 MySQLServer kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+Sep 17 11:17:38 MySQLServer kernel: futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+Sep 17 11:17:38 MySQLServer kernel: pinctrl core: initialized pinctrl subsystem
+Sep 17 11:17:38 MySQLServer kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+Sep 17 11:17:38 MySQLServer kernel: DMA: preallocated 512 KiB GFP_KERNEL pool for atomic allocations
+Sep 17 11:17:38 MySQLServer kernel: DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+Sep 17 11:17:38 MySQLServer kernel: DMA: preallocated 512 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+Sep 17 11:17:38 MySQLServer kernel: audit: initializing netlink subsys (disabled)
+Sep 17 11:17:38 MySQLServer kernel: audit: type=2000 audit(1694942263.867:1): state=initialized audit_enabled=0 res=1
+Sep 17 11:17:38 MySQLServer kernel: thermal_sys: Registered thermal governor 'fair_share'
+Sep 17 11:17:38 MySQLServer kernel: thermal_sys: Registered thermal governor 'step_wise'
+Sep 17 11:17:38 MySQLServer kernel: thermal_sys: Registered thermal governor 'user_space'
+Sep 17 11:17:38 MySQLServer kernel: cpuidle: using governor menu
+Sep 17 11:17:38 MySQLServer kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Sep 17 11:17:38 MySQLServer kernel: PCI: Using configuration type 1 for base access
+Sep 17 11:17:38 MySQLServer kernel: PCI: Using configuration type 1 for extended access
+Sep 17 11:17:38 MySQLServer kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+Sep 17 11:17:38 MySQLServer kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+Sep 17 11:17:38 MySQLServer kernel: HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+Sep 17 11:17:38 MySQLServer kernel: cryptd: max_cpu_qlen set to 1000
+Sep 17 11:17:38 MySQLServer kernel: ACPI: Added _OSI(Module Device)
+Sep 17 11:17:38 MySQLServer kernel: ACPI: Added _OSI(Processor Device)
+Sep 17 11:17:38 MySQLServer kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Sep 17 11:17:38 MySQLServer kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Sep 17 11:17:38 MySQLServer kernel: ACPI: Added _OSI(Linux-Dell-Video)
+Sep 17 11:17:38 MySQLServer kernel: ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Sep 17 11:17:38 MySQLServer kernel: ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Sep 17 11:17:38 MySQLServer kernel: ACPI: 2 ACPI AML tables successfully acquired and loaded
+Sep 17 11:17:38 MySQLServer kernel: ACPI: Interpreter enabled
+Sep 17 11:17:38 MySQLServer kernel: ACPI: PM: (supports S0 S5)
+Sep 17 11:17:38 MySQLServer kernel: ACPI: Using IOAPIC for interrupt routing
+Sep 17 11:17:38 MySQLServer kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Sep 17 11:17:38 MySQLServer kernel: PCI: Using E820 reservations for host bridge windows
+Sep 17 11:17:38 MySQLServer kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Sep 17 11:17:38 MySQLServer kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Sep 17 11:17:38 MySQLServer kernel: acpi PNP0A03:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]
+Sep 17 11:17:38 MySQLServer kernel: acpi PNP0A03:00: _OSC: platform does not support [PCIeCapability LTR DPC]
+Sep 17 11:17:38 MySQLServer kernel: acpi PNP0A03:00: _OSC: not requesting control; platform does not support [PCIeCapability]
+Sep 17 11:17:38 MySQLServer kernel: acpi PNP0A03:00: _OSC: OS requested [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]
+Sep 17 11:17:38 MySQLServer kernel: acpi PNP0A03:00: _OSC: platform willing to grant [PCIeHotplug SHPCHotplug PME AER]
+Sep 17 11:17:38 MySQLServer kernel: acpi PNP0A03:00: _OSC: platform retains control of PCIe features (AE_SUPPORT)
+Sep 17 11:17:38 MySQLServer kernel: PCI host bridge to bus 0000:00
+Sep 17 11:17:38 MySQLServer kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Sep 17 11:17:38 MySQLServer kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Sep 17 11:17:38 MySQLServer kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Sep 17 11:17:38 MySQLServer kernel: pci_bus 0000:00: root bus resource [mem 0xe0000000-0xfdffffff window]
+Sep 17 11:17:38 MySQLServer kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:02.0: reg 0x10: [io  0xd010-0xd01f]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:02.0: reg 0x14: [mem 0xe0000000-0xe0ffffff pref]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:02.0: reg 0x18: [mem 0xf0000000-0xf01fffff]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:03.0: reg 0x10: [mem 0xf0200000-0xf021ffff]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:03.0: reg 0x18: [io  0xd020-0xd027]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:04.0: reg 0x10: [io  0xd040-0xd05f]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:0b.0: [8086:265c] type 00 class 0x0c0320
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:0b.0: reg 0x10: [mem 0xf0805000-0xf0805fff]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:0d.0: reg 0x14: [io  0xd248-0xd24b]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:0d.0: reg 0x1c: [io  0xd258-0xd25b]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:0d.0: reg 0x24: [mem 0xf0806000-0xf0807fff]
+Sep 17 11:17:38 MySQLServer kernel: ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+Sep 17 11:17:38 MySQLServer kernel: ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+Sep 17 11:17:38 MySQLServer kernel: ACPI: PCI: Interrupt link LNKC configured for IRQ 9
+Sep 17 11:17:38 MySQLServer kernel: ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+Sep 17 11:17:38 MySQLServer kernel: iommu: Default domain type: Translated 
+Sep 17 11:17:38 MySQLServer kernel: iommu: DMA domain TLB invalidation policy: lazy mode 
+Sep 17 11:17:38 MySQLServer kernel: SCSI subsystem initialized
+Sep 17 11:17:38 MySQLServer kernel: ACPI: bus type USB registered
+Sep 17 11:17:38 MySQLServer kernel: usbcore: registered new interface driver usbfs
+Sep 17 11:17:38 MySQLServer kernel: usbcore: registered new interface driver hub
+Sep 17 11:17:38 MySQLServer kernel: usbcore: registered new device driver usb
+Sep 17 11:17:38 MySQLServer kernel: pps_core: LinuxPPS API ver. 1 registered
+Sep 17 11:17:38 MySQLServer kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Sep 17 11:17:38 MySQLServer kernel: PTP clock support registered
+Sep 17 11:17:38 MySQLServer kernel: EDAC MC: Ver: 3.0.0
+Sep 17 11:17:38 MySQLServer kernel: NetLabel: Initializing
+Sep 17 11:17:38 MySQLServer kernel: NetLabel:  domain hash size = 128
+Sep 17 11:17:38 MySQLServer kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Sep 17 11:17:38 MySQLServer kernel: NetLabel:  unlabeled traffic allowed by default
+Sep 17 11:17:38 MySQLServer kernel: PCI: Using ACPI for IRQ routing
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:02.0: vgaarb: bridge control possible
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Sep 17 11:17:38 MySQLServer kernel: vgaarb: loaded
+Sep 17 11:17:38 MySQLServer kernel: clocksource: Switched to clocksource kvm-clock
+Sep 17 11:17:38 MySQLServer kernel: VFS: Disk quotas dquot_6.6.0
+Sep 17 11:17:38 MySQLServer kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Sep 17 11:17:38 MySQLServer kernel: pnp: PnP ACPI init
+Sep 17 11:17:38 MySQLServer kernel: pnp: PnP ACPI: found 2 devices
+Sep 17 11:17:38 MySQLServer kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Sep 17 11:17:38 MySQLServer kernel: NET: Registered PF_INET protocol family
+Sep 17 11:17:38 MySQLServer kernel: IP idents hash table entries: 65536 (order: 7, 524288 bytes, linear)
+Sep 17 11:17:38 MySQLServer kernel: tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes, linear)
+Sep 17 11:17:38 MySQLServer kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+Sep 17 11:17:38 MySQLServer kernel: TCP established hash table entries: 32768 (order: 6, 262144 bytes, linear)
+Sep 17 11:17:38 MySQLServer kernel: TCP bind hash table entries: 32768 (order: 7, 524288 bytes, linear)
+Sep 17 11:17:38 MySQLServer kernel: TCP: Hash tables configured (established 32768 bind 32768)
+Sep 17 11:17:38 MySQLServer kernel: MPTCP token hash table entries: 4096 (order: 4, 98304 bytes, linear)
+Sep 17 11:17:38 MySQLServer kernel: UDP hash table entries: 2048 (order: 4, 65536 bytes, linear)
+Sep 17 11:17:38 MySQLServer kernel: UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes, linear)
+Sep 17 11:17:38 MySQLServer kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+Sep 17 11:17:38 MySQLServer kernel: NET: Registered PF_XDP protocol family
+Sep 17 11:17:38 MySQLServer kernel: pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Sep 17 11:17:38 MySQLServer kernel: pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Sep 17 11:17:38 MySQLServer kernel: pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Sep 17 11:17:38 MySQLServer kernel: pci_bus 0000:00: resource 7 [mem 0xe0000000-0xfdffffff window]
+Sep 17 11:17:38 MySQLServer kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Sep 17 11:17:38 MySQLServer kernel: PCI: CLS 0 bytes, default 64
+Sep 17 11:17:38 MySQLServer kernel: PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Sep 17 11:17:38 MySQLServer kernel: software IO TLB: mapped [mem 0x00000000cb000000-0x00000000cf000000] (64MB)
+Sep 17 11:17:38 MySQLServer kernel: ACPI: bus type thunderbolt registered
+Sep 17 11:17:38 MySQLServer kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x325b15e89c7, max_idle_ns: 440795202126 ns
+Sep 17 11:17:38 MySQLServer kernel: clocksource: Switched to clocksource tsc
+Sep 17 11:17:38 MySQLServer kernel: platform rtc_cmos: registered platform RTC device (no PNP device found)
+Sep 17 11:17:38 MySQLServer kernel: Trying to unpack rootfs image as initramfs...
+Sep 17 11:17:38 MySQLServer kernel: Initialise system trusted keyrings
+Sep 17 11:17:38 MySQLServer kernel: Key type blacklist registered
+Sep 17 11:17:38 MySQLServer kernel: workingset: timestamp_bits=36 max_order=20 bucket_order=0
+Sep 17 11:17:38 MySQLServer kernel: zbud: loaded
+Sep 17 11:17:38 MySQLServer kernel: integrity: Platform Keyring initialized
+Sep 17 11:17:38 MySQLServer kernel: integrity: Machine keyring initialized
+Sep 17 11:17:38 MySQLServer kernel: NET: Registered PF_ALG protocol family
+Sep 17 11:17:38 MySQLServer kernel: xor: automatically using best checksumming function   avx       
+Sep 17 11:17:38 MySQLServer kernel: Key type asymmetric registered
+Sep 17 11:17:38 MySQLServer kernel: Asymmetric key parser 'x509' registered
+Sep 17 11:17:38 MySQLServer kernel: Running certificate verification selftests
+Sep 17 11:17:38 MySQLServer kernel: Loaded X.509 cert 'Certificate verification self-testing key: f58703bb33ce1b73ee02eccdee5b8817518fe3db'
+Sep 17 11:17:38 MySQLServer kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 246)
+Sep 17 11:17:38 MySQLServer kernel: io scheduler mq-deadline registered
+Sep 17 11:17:38 MySQLServer kernel: io scheduler kyber registered
+Sep 17 11:17:38 MySQLServer kernel: io scheduler bfq registered
+Sep 17 11:17:38 MySQLServer kernel: atomic64_test: passed for x86-64 platform with CX8 and with SSE
+Sep 17 11:17:38 MySQLServer kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Sep 17 11:17:38 MySQLServer kernel: ACPI: AC: AC Adapter [AC] (on-line)
+Sep 17 11:17:38 MySQLServer kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Sep 17 11:17:38 MySQLServer kernel: ACPI: button: Power Button [PWRF]
+Sep 17 11:17:38 MySQLServer kernel: input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Sep 17 11:17:38 MySQLServer kernel: ACPI: button: Sleep Button [SLPF]
+Sep 17 11:17:38 MySQLServer kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Sep 17 11:17:38 MySQLServer kernel: Non-volatile memory driver v1.3
+Sep 17 11:17:38 MySQLServer kernel: rdac: device handler registered
+Sep 17 11:17:38 MySQLServer kernel: hp_sw: device handler registered
+Sep 17 11:17:38 MySQLServer kernel: emc: device handler registered
+Sep 17 11:17:38 MySQLServer kernel: alua: device handler registered
+Sep 17 11:17:38 MySQLServer kernel: libphy: Fixed MDIO Bus: probed
+Sep 17 11:17:38 MySQLServer kernel: ohci-pci 0000:00:06.0: OHCI PCI host controller
+Sep 17 11:17:38 MySQLServer kernel: ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+Sep 17 11:17:38 MySQLServer kernel: ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+Sep 17 11:17:38 MySQLServer kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.14
+Sep 17 11:17:38 MySQLServer kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Sep 17 11:17:38 MySQLServer kernel: usb usb1: Product: OHCI PCI host controller
+Sep 17 11:17:38 MySQLServer kernel: usb usb1: Manufacturer: Linux 5.14.0-364.el9.x86_64 ohci_hcd
+Sep 17 11:17:38 MySQLServer kernel: usb usb1: SerialNumber: 0000:00:06.0
+Sep 17 11:17:38 MySQLServer kernel: hub 1-0:1.0: USB hub found
+Sep 17 11:17:38 MySQLServer kernel: hub 1-0:1.0: 12 ports detected
+Sep 17 11:17:38 MySQLServer kernel: ehci-pci 0000:00:0b.0: EHCI Host Controller
+Sep 17 11:17:38 MySQLServer kernel: ehci-pci 0000:00:0b.0: new USB bus registered, assigned bus number 2
+Sep 17 11:17:38 MySQLServer kernel: usbcore: registered new interface driver usbserial_generic
+Sep 17 11:17:38 MySQLServer kernel: usbserial: USB Serial support registered for generic
+Sep 17 11:17:38 MySQLServer kernel: i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Sep 17 11:17:38 MySQLServer kernel: ehci-pci 0000:00:0b.0: irq 19, io mem 0xf0805000
+Sep 17 11:17:38 MySQLServer kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Sep 17 11:17:38 MySQLServer kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Sep 17 11:17:38 MySQLServer kernel: mousedev: PS/2 mouse device common for all mice
+Sep 17 11:17:38 MySQLServer kernel: rtc_cmos rtc_cmos: registered as rtc0
+Sep 17 11:17:38 MySQLServer kernel: rtc_cmos rtc_cmos: setting system clock to 2023-09-17T09:17:37 UTC (1694942257)
+Sep 17 11:17:38 MySQLServer kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Sep 17 11:17:38 MySQLServer kernel: rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Sep 17 11:17:38 MySQLServer kernel: amd_pstate: driver load is disabled, boot with specific mode to enable this
+Sep 17 11:17:38 MySQLServer kernel: hid: raw HID events driver (C) Jiri Kosina
+Sep 17 11:17:38 MySQLServer kernel: usbcore: registered new interface driver usbhid
+Sep 17 11:17:38 MySQLServer kernel: usbhid: USB HID core driver
+Sep 17 11:17:38 MySQLServer kernel: drop_monitor: Initializing network drop monitor service
+Sep 17 11:17:38 MySQLServer kernel: ehci-pci 0000:00:0b.0: USB 2.0 started, EHCI 1.00
+Sep 17 11:17:38 MySQLServer kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.14
+Sep 17 11:17:38 MySQLServer kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Sep 17 11:17:38 MySQLServer kernel: usb usb2: Product: EHCI Host Controller
+Sep 17 11:17:38 MySQLServer kernel: usb usb2: Manufacturer: Linux 5.14.0-364.el9.x86_64 ehci_hcd
+Sep 17 11:17:38 MySQLServer kernel: usb usb2: SerialNumber: 0000:00:0b.0
+Sep 17 11:17:38 MySQLServer kernel: hub 2-0:1.0: USB hub found
+Sep 17 11:17:38 MySQLServer kernel: hub 2-0:1.0: 12 ports detected
+Sep 17 11:17:38 MySQLServer kernel: Initializing XFRM netlink socket
+Sep 17 11:17:38 MySQLServer kernel: NET: Registered PF_INET6 protocol family
+Sep 17 11:17:38 MySQLServer kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input4
+Sep 17 11:17:38 MySQLServer kernel: Freeing initrd memory: 55272K
+Sep 17 11:17:38 MySQLServer kernel: Segment Routing with IPv6
+Sep 17 11:17:38 MySQLServer kernel: NET: Registered PF_PACKET protocol family
+Sep 17 11:17:38 MySQLServer kernel: mpls_gso: MPLS GSO support
+Sep 17 11:17:38 MySQLServer kernel: IPI shorthand broadcast: enabled
+Sep 17 11:17:38 MySQLServer kernel: AVX2 version of gcm_enc/dec engaged.
+Sep 17 11:17:38 MySQLServer kernel: AES CTR mode by8 optimization enabled
+Sep 17 11:17:38 MySQLServer kernel: sched_clock: Marking stable (920454507, 7792024)->(998903533, -70657002)
+Sep 17 11:17:38 MySQLServer kernel: registered taskstats version 1
+Sep 17 11:17:38 MySQLServer kernel: Loading compiled-in X.509 certificates
+Sep 17 11:17:38 MySQLServer kernel: Loaded X.509 cert 'The CentOS Project: CentOS Stream kernel signing key: 07a797c1c7c7300b4066a59299438409a4e20f35'
+Sep 17 11:17:38 MySQLServer kernel: Loaded X.509 cert 'Red Hat Enterprise Linux Driver Update Program (key 3): bf57f3e87362bc7229d9f465321773dfd1f77a80'
+Sep 17 11:17:38 MySQLServer kernel: Loaded X.509 cert 'Red Hat Enterprise Linux kpatch signing key: 4d38fd864ebe18c5f0b72e3852e2014c3a676fc8'
+Sep 17 11:17:38 MySQLServer kernel: Loaded X.509 cert 'RH-IMA-CA: Red Hat IMA CA: fb31825dd0e073685b264e3038963673f753959a'
+Sep 17 11:17:38 MySQLServer kernel: zswap: loaded using pool lzo/zbud
+Sep 17 11:17:38 MySQLServer kernel: page_owner is disabled
+Sep 17 11:17:38 MySQLServer kernel: Key type big_key registered
+Sep 17 11:17:38 MySQLServer kernel: Key type encrypted registered
+Sep 17 11:17:38 MySQLServer kernel: ima: No TPM chip found, activating TPM-bypass!
+Sep 17 11:17:38 MySQLServer kernel: Loading compiled-in module X.509 certificates
+Sep 17 11:17:38 MySQLServer kernel: Loaded X.509 cert 'The CentOS Project: CentOS Stream kernel signing key: 07a797c1c7c7300b4066a59299438409a4e20f35'
+Sep 17 11:17:38 MySQLServer kernel: ima: Allocated hash algorithm: sha256
+Sep 17 11:17:38 MySQLServer kernel: ima: No architecture policies found
+Sep 17 11:17:38 MySQLServer kernel: evm: Initialising EVM extended attributes:
+Sep 17 11:17:38 MySQLServer kernel: evm: security.selinux
+Sep 17 11:17:38 MySQLServer kernel: evm: security.SMACK64 (disabled)
+Sep 17 11:17:38 MySQLServer kernel: evm: security.SMACK64EXEC (disabled)
+Sep 17 11:17:38 MySQLServer kernel: evm: security.SMACK64TRANSMUTE (disabled)
+Sep 17 11:17:38 MySQLServer kernel: evm: security.SMACK64MMAP (disabled)
+Sep 17 11:17:38 MySQLServer kernel: evm: security.apparmor (disabled)
+Sep 17 11:17:38 MySQLServer kernel: evm: security.ima
+Sep 17 11:17:38 MySQLServer kernel: evm: security.capability
+Sep 17 11:17:38 MySQLServer kernel: evm: HMAC attrs: 0x1
+Sep 17 11:17:38 MySQLServer kernel: Freeing unused decrypted memory: 2036K
+Sep 17 11:17:38 MySQLServer kernel: Freeing unused kernel image (initmem) memory: 3824K
+Sep 17 11:17:38 MySQLServer kernel: Write protecting the kernel read-only data: 28672k
+Sep 17 11:17:38 MySQLServer kernel: Freeing unused kernel image (rodata/data gap) memory: 848K
+Sep 17 11:17:38 MySQLServer kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Sep 17 11:17:38 MySQLServer kernel: Run /init as init process
+Sep 17 11:17:38 MySQLServer systemd: systemd 252-18.el9 running in system mode (+PAM +AUDIT +SELINUX -APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS -FIDO2 +IDN2 -IDN -IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -BPF_FRAMEWORK +XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+Sep 17 11:17:38 MySQLServer systemd: Detected virtualization oracle.
+Sep 17 11:17:38 MySQLServer systemd: Detected architecture x86-64.
+Sep 17 11:17:38 MySQLServer systemd: Running in initrd.
+Sep 17 11:17:38 MySQLServer systemd: Hostname set to <MySQLServer>.
+Sep 17 11:17:38 MySQLServer systemd: Invalid DMI field header.
+Sep 17 11:17:38 MySQLServer systemd: Queued start job for default target Initrd Default Target.
+Sep 17 11:17:38 MySQLServer systemd: Created slice Slice /system/systemd-hibernate-resume.
+Sep 17 11:17:38 MySQLServer systemd: Reached target Initrd /usr File System.
+Sep 17 11:17:38 MySQLServer systemd: Reached target Slice Units.
+Sep 17 11:17:38 MySQLServer systemd: Reached target Swaps.
+Sep 17 11:17:38 MySQLServer systemd: Reached target Timer Units.
+Sep 17 11:17:38 MySQLServer systemd: Listening on D-Bus System Message Bus Socket.
+Sep 17 11:17:38 MySQLServer systemd: Listening on Journal Socket (/dev/log).
+Sep 17 11:17:38 MySQLServer systemd: Listening on Journal Socket.
+Sep 17 11:17:38 MySQLServer systemd: Listening on udev Control Socket.
+Sep 17 11:17:38 MySQLServer systemd: Listening on udev Kernel Socket.
+Sep 17 11:17:38 MySQLServer systemd: Reached target Socket Units.
+Sep 17 11:17:38 MySQLServer systemd: Starting Create List of Static Device Nodes...
+Sep 17 11:17:38 MySQLServer systemd: Starting Journal Service...
+Sep 17 11:17:38 MySQLServer systemd: Starting Load Kernel Modules...
+Sep 17 11:17:38 MySQLServer systemd: Starting Create System Users...
+Sep 17 11:17:38 MySQLServer systemd: Starting Setup Virtual Console...
+Sep 17 11:17:38 MySQLServer systemd: Finished Create List of Static Device Nodes.
+Sep 17 11:17:38 MySQLServer systemd: Finished Create System Users.
+Sep 17 11:17:38 MySQLServer systemd: Starting Create Static Device Nodes in /dev...
+Sep 17 11:17:38 MySQLServer systemd: Finished Create Static Device Nodes in /dev.
+Sep 17 11:17:38 MySQLServer kernel: fuse: init (API version 7.36)
+Sep 17 11:17:38 MySQLServer systemd: Finished Load Kernel Modules.
+Sep 17 11:17:38 MySQLServer systemd-journald[254]: Journal started
+Sep 17 11:17:38 MySQLServer systemd-journald[254]: Runtime Journal (/run/log/journal/225ee12d25f745c393b0986619f988ea) is 8.0M, max 72.9M, 64.9M free.
+Sep 17 11:17:38 MySQLServer systemd-sysusers[256]: Creating group 'nobody' with GID 65534.
+Sep 17 11:17:38 MySQLServer systemd-sysusers[256]: Creating group 'users' with GID 100.
+Sep 17 11:17:38 MySQLServer systemd-sysusers[256]: Creating group 'dbus' with GID 81.
+Sep 17 11:17:38 MySQLServer systemd-sysusers[256]: Creating user 'dbus' (System Message Bus) with UID 81 and GID 81.
+Sep 17 11:17:38 MySQLServer systemd-modules-load[255]: Inserted module 'fuse'
+Sep 17 11:17:38 MySQLServer systemd-modules-load[255]: Module 'msr' is built in
+Sep 17 11:17:38 MySQLServer systemd: Starting Apply Kernel Variables...
+Sep 17 11:17:38 MySQLServer systemd: Started Journal Service.
+Sep 17 11:17:38 MySQLServer systemd[1]: Starting Create Volatile Files and Directories...
+Sep 17 11:17:38 MySQLServer systemd[1]: Finished Apply Kernel Variables.
+Sep 17 11:17:38 MySQLServer systemd[1]: Finished Create Volatile Files and Directories.
+Sep 17 11:17:38 MySQLServer systemd[1]: Finished Setup Virtual Console.
+Sep 17 11:17:38 MySQLServer systemd[1]: dracut ask for additional cmdline parameters was skipped because no trigger condition checks were met.
+Sep 17 11:17:38 MySQLServer systemd[1]: Starting dracut cmdline hook...
+Sep 17 11:17:38 MySQLServer dracut-cmdline[272]: dracut-9 dracut-057-44.git20230822.el9
+Sep 17 11:17:38 MySQLServer dracut-cmdline[272]: Using kernel command line parameters:    BOOT_IMAGE=(hd0,msdos1)/vmlinuz-5.14.0-364.el9.x86_64 root=/dev/mapper/cs-root ro crashkernel=1G-4G:192M,4G-64G:256M,64G-:512M resume=/dev/mapper/cs-swap rd.lvm.lv=cs/root rd.lvm.lv=cs/swap rhgb quiet
+Sep 17 11:17:38 MySQLServer systemd[1]: Finished dracut cmdline hook.
+Sep 17 11:17:38 MySQLServer systemd[1]: Starting dracut pre-udev hook...
+Sep 17 11:17:38 MySQLServer kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+Sep 17 11:17:38 MySQLServer kernel: device-mapper: uevent: version 1.0.3
+Sep 17 11:17:38 MySQLServer kernel: device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@redhat.com
+Sep 17 11:17:38 MySQLServer systemd[1]: Finished dracut pre-udev hook.
+Sep 17 11:17:38 MySQLServer systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Sep 17 11:17:38 MySQLServer systemd-udevd[385]: Using default interface naming scheme 'rhel-9.0'.
+Sep 17 11:17:38 MySQLServer systemd[1]: Started Rule-based Manager for Device Events and Files.
+Sep 17 11:17:38 MySQLServer systemd[1]: dracut pre-trigger hook was skipped because no trigger condition checks were met.
+Sep 17 11:17:38 MySQLServer systemd[1]: Starting Coldplug All udev Devices...
+Sep 17 11:17:38 MySQLServer systemd[1]: sys-module-fuse.device: Failed to enqueue SYSTEMD_WANTS= job, ignoring: Unit sys-fs-fuse-connections.mount not found.
+Sep 17 11:17:38 MySQLServer systemd[1]: Finished Coldplug All udev Devices.
+Sep 17 11:17:38 MySQLServer systemd[1]: nm-initrd.service was skipped because of an unmet condition check (ConditionPathExists=/run/NetworkManager/initrd/neednet).
+Sep 17 11:17:38 MySQLServer systemd[1]: Reached target Network.
+Sep 17 11:17:38 MySQLServer systemd[1]: nm-wait-online-initrd.service was skipped because of an unmet condition check (ConditionPathExists=/run/NetworkManager/initrd/neednet).
+Sep 17 11:17:38 MySQLServer systemd[1]: Starting dracut initqueue hook...
+Sep 17 11:17:38 MySQLServer systemd[1]: Starting Show Plymouth Boot Screen...
+Sep 17 11:17:38 MySQLServer systemd[1]: Received SIGRTMIN+20 from PID 395 (plymouthd).
+Sep 17 11:17:38 MySQLServer systemd[1]: Started Show Plymouth Boot Screen.
+Sep 17 11:17:38 MySQLServer systemd[1]: Dispatch Password Requests to Console Directory Watch was skipped because of an unmet condition check (ConditionPathExists=!/run/plymouth/pid).
+Sep 17 11:17:38 MySQLServer systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Sep 17 11:17:38 MySQLServer systemd[1]: Reached target Path Units.
+Sep 17 11:17:38 MySQLServer kernel: vboxguest: loading out-of-tree module taints kernel.
+Sep 17 11:17:38 MySQLServer kernel: vboxguest: module verification failed: signature and/or required key missing - tainting kernel
+Sep 17 11:17:38 MySQLServer kernel: e1000: Intel(R) PRO/1000 Network Driver
+Sep 17 11:17:38 MySQLServer kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+Sep 17 11:17:38 MySQLServer kernel: Warning: Unmaintained hardware is detected:  e1000:100E:8086 @ 0000:00:03.0
+Sep 17 11:17:38 MySQLServer kernel: vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+Sep 17 11:17:38 MySQLServer kernel: Host supports full mouse state reporting, switching to extended mouse integration protocol
+Sep 17 11:17:38 MySQLServer kernel: input: VirtualBox mouse integration as /devices/pci0000:00/0000:00:04.0/input/input5
+Sep 17 11:17:38 MySQLServer kernel: ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Sep 17 11:17:38 MySQLServer kernel: input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input6
+Sep 17 11:17:38 MySQLServer kernel: ACPI: bus type drm_connector registered
+Sep 17 11:17:38 MySQLServer kernel: ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Sep 17 11:17:38 MySQLServer kernel: ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Sep 17 11:17:38 MySQLServer kernel: ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Sep 17 11:17:38 MySQLServer kernel: scsi host0: ata_piix
+Sep 17 11:17:38 MySQLServer kernel: vboxguest: Successfully loaded version 7.0.10 r158379
+Sep 17 11:17:38 MySQLServer kernel: vboxguest: misc device minor 123, IRQ 20, I/O port d040, MMIO at 00000000f0400000 (size 0x400000)
+Sep 17 11:17:38 MySQLServer kernel: scsi host1: ata_piix
+Sep 17 11:17:38 MySQLServer kernel: ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Sep 17 11:17:38 MySQLServer kernel: ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Sep 17 11:17:38 MySQLServer kernel: scsi host2: ahci
+Sep 17 11:17:38 MySQLServer kernel: ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21
+Sep 17 11:17:38 MySQLServer kernel: vmwgfx 0000:00:02.0: vgaarb: deactivate vga console
+Sep 17 11:17:38 MySQLServer kernel: Console: switching to colour dummy device 80x25
+Sep 17 11:17:38 MySQLServer kernel: vmwgfx 0000:00:02.0: [drm] FIFO at 0x00000000f0000000 size is 2048 kiB
+Sep 17 11:17:38 MySQLServer kernel: vmwgfx 0000:00:02.0: [drm] VRAM at 0x00000000e0000000 size is 16384 kiB
+Sep 17 11:17:38 MySQLServer kernel: vmwgfx 0000:00:02.0: [drm] Running on SVGA version 2.
+Sep 17 11:17:38 MySQLServer kernel: vmwgfx 0000:00:02.0: [drm] Capabilities: rect copy, cursor, cursor bypass, cursor bypass 2, alpha cursor, extended fifo, pitchlock, irq mask, gmr, traces, gmr2, screen object 2, command buffers, 
+Sep 17 11:17:38 MySQLServer kernel: vmwgfx 0000:00:02.0: [drm] DMA map mode: Caching DMA mappings.
+Sep 17 11:17:38 MySQLServer kernel: vmwgfx 0000:00:02.0: [drm] Legacy memory limits: VRAM = 16384 kB, FIFO = 2048 kB, surface = 507904 kB
+Sep 17 11:17:38 MySQLServer kernel: vmwgfx 0000:00:02.0: [drm] MOB limits: max mob size = 0 kB, max mob pages = 0
+Sep 17 11:17:38 MySQLServer kernel: vmwgfx 0000:00:02.0: [drm] Max GMR ids is 8192
+Sep 17 11:17:38 MySQLServer kernel: vmwgfx 0000:00:02.0: [drm] Max number of GMR pages is 1048576
+Sep 17 11:17:38 MySQLServer kernel: vmwgfx 0000:00:02.0: [drm] Maximum display memory size is 16384 kiB
+Sep 17 11:17:38 MySQLServer kernel: vmwgfx 0000:00:02.0: [drm] Screen Object display unit initialized
+Sep 17 11:17:38 MySQLServer kernel: vmwgfx 0000:00:02.0: [drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+Sep 17 11:17:38 MySQLServer kernel: vmwgfx 0000:00:02.0: [drm] Using command buffers with DMA pool.
+Sep 17 11:17:38 MySQLServer kernel: vmwgfx 0000:00:02.0: [drm] Available shader model: Legacy.
+Sep 17 11:17:38 MySQLServer kernel: [drm:vmw_host_printf [vmwgfx]] *ERROR* Failed to send host log message.
+Sep 17 11:17:38 MySQLServer kernel: [drm] Initialized vmwgfx 2.20.0 20211206 for 0000:00:02.0 on minor 0
+Sep 17 11:17:38 MySQLServer kernel: fbcon: vmwgfxdrmfb (fb0) is primary device
+Sep 17 11:17:38 MySQLServer kernel: Console: switching to colour frame buffer device 160x50
+Sep 17 11:17:38 MySQLServer kernel: vmwgfx 0000:00:02.0: [drm] fb0: vmwgfxdrmfb frame buffer device
+Sep 17 11:17:39 MySQLServer kernel: e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:02:30:e8
+Sep 17 11:17:39 MySQLServer kernel: e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Sep 17 11:17:39 MySQLServer kernel: e1000 0000:00:03.0 enp0s3: renamed from eth0
+Sep 17 11:17:39 MySQLServer kernel: ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Sep 17 11:17:39 MySQLServer kernel: ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Sep 17 11:17:39 MySQLServer kernel: ata3.00: 104857600 sectors, multi 128: LBA48 NCQ (depth 32)
+Sep 17 11:17:39 MySQLServer kernel: ata3.00: configured for UDMA/133
+Sep 17 11:17:39 MySQLServer kernel: scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Sep 17 11:17:39 MySQLServer kernel: scsi 2:0:0:0: Attached scsi generic sg0 type 0
+Sep 17 11:17:39 MySQLServer kernel: sd 2:0:0:0: [sda] 104857600 512-byte logical blocks: (53.7 GB/50.0 GiB)
+Sep 17 11:17:39 MySQLServer kernel: sd 2:0:0:0: [sda] Write Protect is off
+Sep 17 11:17:39 MySQLServer kernel: sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Sep 17 11:17:39 MySQLServer kernel: sd 2:0:0:0: [sda] Preferred minimum I/O size 512 bytes
+Sep 17 11:17:39 MySQLServer kernel: sda: sda1 sda2
+Sep 17 11:17:39 MySQLServer kernel: sd 2:0:0:0: [sda] Attached SCSI disk
+Sep 17 11:17:39 MySQLServer dracut-initqueue[496]: Scanning devices sda2  for LVM logical volumes cs/root
+Sep 17 11:17:39 MySQLServer dracut-initqueue[496]: cs/swap
+Sep 17 11:17:39 MySQLServer dracut-initqueue[496]:  cs/root linear
+Sep 17 11:17:39 MySQLServer dracut-initqueue[496]:  cs/swap linear
+Sep 17 11:17:39 MySQLServer systemd[1]: Found device /dev/mapper/cs-root.
+Sep 17 11:17:39 MySQLServer systemd[1]: Reached target Initrd Root Device.
+Sep 17 11:17:39 MySQLServer systemd[1]: Found device /dev/mapper/cs-swap.
+Sep 17 11:17:39 MySQLServer systemd[1]: Starting Resume from hibernation using device /dev/mapper/cs-swap...
+Sep 17 11:17:39 MySQLServer systemd-hibernate-resume[532]: Could not resume from '/dev/mapper/cs-swap' (253:1).
+Sep 17 11:17:39 MySQLServer systemd[1]: systemd-hibernate-resume@dev-mapper-cs\x2dswap.service: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: Finished Resume from hibernation using device /dev/mapper/cs-swap.
+Sep 17 11:17:39 MySQLServer systemd[1]: Reached target Preparation for Local File Systems.
+Sep 17 11:17:39 MySQLServer systemd[1]: Reached target Local File Systems.
+Sep 17 11:17:39 MySQLServer systemd[1]: Reached target System Initialization.
+Sep 17 11:17:39 MySQLServer systemd[1]: Reached target Basic System.
+Sep 17 11:17:39 MySQLServer systemd[1]: Finished dracut initqueue hook.
+Sep 17 11:17:39 MySQLServer systemd[1]: Reached target Preparation for Remote File Systems.
+Sep 17 11:17:39 MySQLServer systemd[1]: Reached target Remote File Systems.
+Sep 17 11:17:39 MySQLServer systemd[1]: dracut pre-mount hook was skipped because no trigger condition checks were met.
+Sep 17 11:17:39 MySQLServer systemd[1]: Starting File System Check on /dev/mapper/cs-root...
+Sep 17 11:17:39 MySQLServer systemd-fsck[542]: /usr/sbin/fsck.xfs: XFS file system.
+Sep 17 11:17:39 MySQLServer systemd[1]: Finished File System Check on /dev/mapper/cs-root.
+Sep 17 11:17:39 MySQLServer systemd[1]: Mounting /sysroot...
+Sep 17 11:17:39 MySQLServer kernel: SGI XFS with ACLs, security attributes, scrub, quota, no debug enabled
+Sep 17 11:17:39 MySQLServer kernel: XFS (dm-0): Mounting V5 Filesystem
+Sep 17 11:17:39 MySQLServer kernel: XFS (dm-0): Ending clean mount
+Sep 17 11:17:39 MySQLServer systemd[1]: Mounted /sysroot.
+Sep 17 11:17:39 MySQLServer systemd[1]: Reached target Initrd Root File System.
+Sep 17 11:17:39 MySQLServer systemd[1]: Starting Mountpoints Configured in the Real Root...
+Sep 17 11:17:39 MySQLServer systemd[1]: initrd-parse-etc.service: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: Finished Mountpoints Configured in the Real Root.
+Sep 17 11:17:39 MySQLServer systemd[1]: Reached target Initrd File Systems.
+Sep 17 11:17:39 MySQLServer systemd[1]: Reached target Initrd Default Target.
+Sep 17 11:17:39 MySQLServer systemd[1]: dracut mount hook was skipped because no trigger condition checks were met.
+Sep 17 11:17:39 MySQLServer systemd[1]: Starting dracut pre-pivot and cleanup hook...
+Sep 17 11:17:39 MySQLServer systemd[1]: Finished dracut pre-pivot and cleanup hook.
+Sep 17 11:17:39 MySQLServer systemd[1]: Starting Cleaning Up and Shutting Down Daemons...
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped target Network.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped target Timer Units.
+Sep 17 11:17:39 MySQLServer systemd[1]: dbus.socket: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: Closed D-Bus System Message Bus Socket.
+Sep 17 11:17:39 MySQLServer systemd[1]: dracut-pre-pivot.service: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped dracut pre-pivot and cleanup hook.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped target Initrd Default Target.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped target Basic System.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped target Initrd Root Device.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped target Initrd /usr File System.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped target Path Units.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped target Remote File Systems.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped target Preparation for Remote File Systems.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped target Slice Units.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped target Socket Units.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped target System Initialization.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped target Local File Systems.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped target Preparation for Local File Systems.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped target Swaps.
+Sep 17 11:17:39 MySQLServer systemd[1]: dracut-initqueue.service: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped dracut initqueue hook.
+Sep 17 11:17:39 MySQLServer systemd[1]: Starting Plymouth switch root service...
+Sep 17 11:17:39 MySQLServer systemd[1]: systemd-sysctl.service: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped Apply Kernel Variables.
+Sep 17 11:17:39 MySQLServer systemd[1]: systemd-modules-load.service: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped Load Kernel Modules.
+Sep 17 11:17:39 MySQLServer systemd[1]: systemd-tmpfiles-setup.service: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped Create Volatile Files and Directories.
+Sep 17 11:17:39 MySQLServer systemd[1]: systemd-udev-trigger.service: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped Coldplug All udev Devices.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopping Rule-based Manager for Device Events and Files...
+Sep 17 11:17:39 MySQLServer systemd[1]: run-credentials-systemd\x2dtmpfiles\x2dsetup.service.mount: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: run-credentials-systemd\x2dsysctl.service.mount: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: initrd-cleanup.service: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: Finished Cleaning Up and Shutting Down Daemons.
+Sep 17 11:17:39 MySQLServer systemd[1]: systemd-udevd.service: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped Rule-based Manager for Device Events and Files.
+Sep 17 11:17:39 MySQLServer systemd[1]: systemd-udevd.service: Consumed 1.025s CPU time.
+Sep 17 11:17:39 MySQLServer systemd[1]: systemd-udevd-control.socket: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: Closed udev Control Socket.
+Sep 17 11:17:39 MySQLServer systemd[1]: systemd-udevd-kernel.socket: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: Closed udev Kernel Socket.
+Sep 17 11:17:39 MySQLServer systemd[1]: dracut-pre-udev.service: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped dracut pre-udev hook.
+Sep 17 11:17:39 MySQLServer systemd[1]: dracut-cmdline.service: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped dracut cmdline hook.
+Sep 17 11:17:39 MySQLServer systemd[1]: Starting Cleanup udev Database...
+Sep 17 11:17:39 MySQLServer systemd[1]: systemd-tmpfiles-setup-dev.service: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped Create Static Device Nodes in /dev.
+Sep 17 11:17:39 MySQLServer systemd[1]: kmod-static-nodes.service: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped Create List of Static Device Nodes.
+Sep 17 11:17:39 MySQLServer systemd[1]: systemd-sysusers.service: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: Stopped Create System Users.
+Sep 17 11:17:39 MySQLServer systemd[1]: run-credentials-systemd\x2dtmpfiles\x2dsetup\x2ddev.service.mount: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: run-credentials-systemd\x2dsysusers.service.mount: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: Finished Plymouth switch root service.
+Sep 17 11:17:39 MySQLServer systemd[1]: initrd-udevadm-cleanup-db.service: Deactivated successfully.
+Sep 17 11:17:39 MySQLServer systemd[1]: Finished Cleanup udev Database.
+Sep 17 11:17:39 MySQLServer systemd[1]: Reached target Switch Root.
+Sep 17 11:17:39 MySQLServer systemd[1]: Starting Switch Root...
+Sep 17 11:17:39 MySQLServer systemd[1]: Switching root.
+Sep 17 11:17:39 MySQLServer systemd-journald[254]: Journal stopped
+Sep 17 11:17:40 MySQLServer systemd-journald: Received SIGTERM from PID 1 (systemd).
+Sep 17 11:17:40 MySQLServer kernel: audit: type=1404 audit(1694942260.012:2): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295 enabled=1 old-enabled=1 lsm=selinux res=1
+Sep 17 11:17:40 MySQLServer kernel: SELinux:  policy capability network_peer_controls=1
+Sep 17 11:17:40 MySQLServer kernel: SELinux:  policy capability open_perms=1
+Sep 17 11:17:40 MySQLServer kernel: SELinux:  policy capability extended_socket_class=1
+Sep 17 11:17:40 MySQLServer kernel: SELinux:  policy capability always_check_network=0
+Sep 17 11:17:40 MySQLServer kernel: SELinux:  policy capability cgroup_seclabel=1
+Sep 17 11:17:40 MySQLServer kernel: SELinux:  policy capability nnp_nosuid_transition=1
+Sep 17 11:17:40 MySQLServer kernel: SELinux:  policy capability genfs_seclabel_symlinks=1
+Sep 17 11:17:40 MySQLServer kernel: audit: type=1403 audit(1694942260.165:3): auid=4294967295 ses=4294967295 lsm=selinux res=1
+Sep 17 11:17:40 MySQLServer systemd: Successfully loaded SELinux policy in 153.201ms.
+Sep 17 11:17:40 MySQLServer systemd: Relabelled /dev, /dev/shm, /run, /sys/fs/cgroup in 31.184ms.
+Sep 17 11:17:40 MySQLServer systemd: systemd 252-18.el9 running in system mode (+PAM +AUDIT +SELINUX -APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS -FIDO2 +IDN2 -IDN -IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -BPF_FRAMEWORK +XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+Sep 17 11:17:40 MySQLServer systemd: Detected virtualization oracle.
+Sep 17 11:17:40 MySQLServer systemd: Detected architecture x86-64.
+Sep 17 11:17:40 MySQLServer systemd: Invalid DMI field header.
+Sep 17 11:17:40 MySQLServer systemd-rc-local-generator: /etc/rc.d/rc.local is not marked executable, skipping.
+Sep 17 11:17:40 MySQLServer systemd: initrd-switch-root.service: Deactivated successfully.
+Sep 17 11:17:40 MySQLServer systemd: Stopped Switch Root.
+Sep 17 11:17:40 MySQLServer systemd: systemd-journald.service: Scheduled restart job, restart counter is at 1.
+Sep 17 11:17:40 MySQLServer systemd: Created slice Slice /system/getty.
+Sep 17 11:17:40 MySQLServer systemd: Created slice Slice /system/modprobe.
+Sep 17 11:17:40 MySQLServer systemd: Created slice Slice /system/sshd-keygen.
+Sep 17 11:17:40 MySQLServer systemd: Created slice User and Session Slice.
+Sep 17 11:17:40 MySQLServer systemd: Dispatch Password Requests to Console Directory Watch was skipped because of an unmet condition check (ConditionPathExists=!/run/plymouth/pid).
+Sep 17 11:17:40 MySQLServer systemd: Started Forward Password Requests to Wall Directory Watch.
+Sep 17 11:17:40 MySQLServer systemd: Set up automount Arbitrary Executable File Formats File System Automount Point.
+Sep 17 11:17:40 MySQLServer systemd: Reached target Local Encrypted Volumes.
+Sep 17 11:17:40 MySQLServer systemd: Reached target Login Prompts.
+Sep 17 11:17:40 MySQLServer systemd: Stopped target Switch Root.
+Sep 17 11:17:40 MySQLServer systemd: Stopped target Initrd File Systems.
+Sep 17 11:17:40 MySQLServer systemd: Stopped target Initrd Root File System.
+Sep 17 11:17:40 MySQLServer systemd: Reached target Local Integrity Protected Volumes.
+Sep 17 11:17:40 MySQLServer systemd: Reached target Slice Units.
+Sep 17 11:17:40 MySQLServer systemd: Reached target Local Verity Protected Volumes.
+Sep 17 11:17:40 MySQLServer systemd: Listening on Device-mapper event daemon FIFOs.
+Sep 17 11:17:40 MySQLServer systemd: Listening on LVM2 poll daemon socket.
+Sep 17 11:17:40 MySQLServer systemd: multipathd control socket was skipped because of an unmet condition check (ConditionPathExists=/etc/multipath.conf).
+Sep 17 11:17:40 MySQLServer systemd: Listening on Process Core Dump Socket.
+Sep 17 11:17:40 MySQLServer systemd: Listening on initctl Compatibility Named Pipe.
+Sep 17 11:17:40 MySQLServer systemd: Listening on udev Control Socket.
+Sep 17 11:17:40 MySQLServer systemd: Listening on udev Kernel Socket.
+Sep 17 11:17:40 MySQLServer systemd: Activating swap /dev/mapper/cs-swap...
+Sep 17 11:17:40 MySQLServer systemd: Mounting Huge Pages File System...
+Sep 17 11:17:40 MySQLServer systemd: Mounting POSIX Message Queue File System...
+Sep 17 11:17:40 MySQLServer systemd: Mounting Kernel Debug File System...
+Sep 17 11:17:40 MySQLServer systemd: Mounting Kernel Trace File System...
+Sep 17 11:17:40 MySQLServer kernel: Adding 4128764k swap on /dev/mapper/cs-swap.  Priority:-2 extents:1 across:4128764k FS
+Sep 17 11:17:40 MySQLServer systemd: Starting Create List of Static Device Nodes...
+Sep 17 11:17:40 MySQLServer systemd: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+Sep 17 11:17:40 MySQLServer systemd: Starting Load Kernel Module configfs...
+Sep 17 11:17:40 MySQLServer systemd: Starting Load Kernel Module drm...
+Sep 17 11:17:40 MySQLServer systemd: Starting Load Kernel Module fuse...
+Sep 17 11:17:40 MySQLServer systemd: Starting Read and set NIS domainname from /etc/sysconfig/network...
+Sep 17 11:17:40 MySQLServer systemd: plymouth-switch-root.service: Deactivated successfully.
+Sep 17 11:17:40 MySQLServer systemd: Stopped Plymouth switch root service.
+Sep 17 11:17:40 MySQLServer systemd: systemd-fsck-root.service: Deactivated successfully.
+Sep 17 11:17:40 MySQLServer systemd: Stopped File System Check on Root Device.
+Sep 17 11:17:40 MySQLServer systemd: Stopped Journal Service.
+Sep 17 11:17:40 MySQLServer systemd: Starting Journal Service...
+Sep 17 11:17:40 MySQLServer systemd: Starting Load Kernel Modules...
+Sep 17 11:17:40 MySQLServer systemd: Starting Generate network units from Kernel command line...
+Sep 17 11:17:40 MySQLServer systemd: Starting Remount Root and Kernel File Systems...
+Sep 17 11:17:40 MySQLServer systemd: Repartition Root Disk was skipped because no trigger condition checks were met.
+Sep 17 11:17:40 MySQLServer systemd: Starting Coldplug All udev Devices...
+Sep 17 11:17:40 MySQLServer systemd: Activated swap /dev/mapper/cs-swap.
+Sep 17 11:17:40 MySQLServer systemd: Mounted Huge Pages File System.
+Sep 17 11:17:40 MySQLServer systemd: Mounted POSIX Message Queue File System.
+Sep 17 11:17:40 MySQLServer systemd: Mounted Kernel Debug File System.
+Sep 17 11:17:40 MySQLServer systemd: Mounted Kernel Trace File System.
+Sep 17 11:17:40 MySQLServer systemd: Finished Create List of Static Device Nodes.
+Sep 17 11:17:40 MySQLServer systemd: modprobe@configfs.service: Deactivated successfully.
+Sep 17 11:17:40 MySQLServer systemd: Finished Load Kernel Module configfs.
+Sep 17 11:17:40 MySQLServer systemd: modprobe@drm.service: Deactivated successfully.
+Sep 17 11:17:40 MySQLServer systemd: Finished Load Kernel Module drm.
+Sep 17 11:17:40 MySQLServer systemd: modprobe@fuse.service: Deactivated successfully.
+Sep 17 11:17:40 MySQLServer systemd: Finished Load Kernel Module fuse.
+Sep 17 11:17:40 MySQLServer systemd: Finished Read and set NIS domainname from /etc/sysconfig/network.
+Sep 17 11:17:40 MySQLServer systemd: Finished Load Kernel Modules.
+Sep 17 11:17:40 MySQLServer systemd: Finished Generate network units from Kernel command line.
+Sep 17 11:17:40 MySQLServer systemd: Reached target Swaps.
+Sep 17 11:17:40 MySQLServer systemd: Mounting FUSE Control File System...
+Sep 17 11:17:40 MySQLServer systemd: Mounting Kernel Configuration File System...
+Sep 17 11:17:40 MySQLServer systemd: Starting Apply Kernel Variables...
+Sep 17 11:17:40 MySQLServer systemd: Mounted FUSE Control File System.
+Sep 17 11:17:40 MySQLServer systemd-journald[628]: Journal started
+Sep 17 11:17:40 MySQLServer systemd-journald[628]: Runtime Journal (/run/log/journal/225ee12d25f745c393b0986619f988ea) is 8.0M, max 72.9M, 64.9M free.
+Sep 17 11:17:40 MySQLServer systemd[1]: Queued start job for default target Graphical Interface.
+Sep 17 11:17:40 MySQLServer systemd[1]: systemd-journald.service: Deactivated successfully.
+Sep 17 11:17:40 MySQLServer systemd-modules-load[629]: Module 'msr' is built in
+Sep 17 11:17:40 MySQLServer systemd: Started Journal Service.
+Sep 17 11:17:40 MySQLServer systemd[1]: Finished Remount Root and Kernel File Systems.
+Sep 17 11:17:40 MySQLServer systemd[1]: Mounted Kernel Configuration File System.
+Sep 17 11:17:40 MySQLServer systemd[1]: Special handling of early boot iSCSI sessions was skipped because of an unmet condition check (ConditionDirectoryNotEmpty=/sys/class/iscsi_session).
+Sep 17 11:17:40 MySQLServer systemd[1]: OSTree Remount OS/ Bind Mounts was skipped because of an unmet condition check (ConditionKernelCommandLine=ostree).
+Sep 17 11:17:40 MySQLServer systemd[1]: First Boot Wizard was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+Sep 17 11:17:40 MySQLServer lvm[623]:  2 logical volume(s) in volume group "cs" monitored
+Sep 17 11:17:40 MySQLServer systemd[1]: Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+Sep 17 11:17:40 MySQLServer systemd[1]: Starting Flush Journal to Persistent Storage...
+Sep 17 11:17:40 MySQLServer systemd[1]: Starting Load/Save Random Seed...
+Sep 17 11:17:40 MySQLServer systemd[1]: Create System Users was skipped because no trigger condition checks were met.
+Sep 17 11:17:40 MySQLServer systemd[1]: Starting Create Static Device Nodes in /dev...
+Sep 17 11:17:40 MySQLServer systemd[1]: Finished Apply Kernel Variables.
+Sep 17 11:17:40 MySQLServer systemd-journald[628]: Runtime Journal (/run/log/journal/225ee12d25f745c393b0986619f988ea) is 8.0M, max 72.9M, 64.9M free.
+Sep 17 11:17:40 MySQLServer systemd-journald[628]: Received client request to flush runtime journal.
+Sep 17 11:17:40 MySQLServer systemd[1]: Finished Flush Journal to Persistent Storage.
+Sep 17 11:17:40 MySQLServer systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Sep 17 11:17:40 MySQLServer systemd[1]: Finished Load/Save Random Seed.
+Sep 17 11:17:40 MySQLServer systemd[1]: First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+Sep 17 11:17:40 MySQLServer systemd[1]: Finished Coldplug All udev Devices.
+Sep 17 11:17:40 MySQLServer systemd[1]: Starting Wait for udev To Complete Device Initialization...
+Sep 17 11:17:40 MySQLServer udevadm[642]: systemd-udev-settle.service is deprecated. Please fix multipathd.service not to pull it in.
+Sep 17 11:17:40 MySQLServer systemd[1]: Finished Create Static Device Nodes in /dev.
+Sep 17 11:17:40 MySQLServer systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Sep 17 11:17:40 MySQLServer systemd-udevd[643]: Using default interface naming scheme 'rhel-9.0'.
+Sep 17 11:17:40 MySQLServer systemd[1]: Started Rule-based Manager for Device Events and Files.
+Sep 17 11:17:40 MySQLServer systemd[1]: Auto-connect to subsystems on FC-NVME devices found during boot was skipped because of an unmet condition check (ConditionPathExists=/sys/class/fc/fc_udev_device/nvme_discovery).
+Sep 17 11:17:40 MySQLServer systemd[1]: Starting Load Kernel Module configfs...
+Sep 17 11:17:40 MySQLServer systemd[1]: modprobe@configfs.service: Deactivated successfully.
+Sep 17 11:17:40 MySQLServer systemd[1]: Finished Load Kernel Module configfs.
+Sep 17 11:17:40 MySQLServer systemd[1]: Starting Load Kernel Module fuse...
+Sep 17 11:17:40 MySQLServer systemd[1]: modprobe@fuse.service: Deactivated successfully.
+Sep 17 11:17:40 MySQLServer systemd[1]: Finished Load Kernel Module fuse.
+Sep 17 11:17:40 MySQLServer systemd[1]: Condition check resulted in VBOX_HARDDISK 1 being skipped.
+Sep 17 11:17:40 MySQLServer lvm[688]: PV /dev/sda2 online, VG cs is complete.
+Sep 17 11:17:40 MySQLServer kernel: piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Sep 17 11:17:40 MySQLServer kernel: input: PC Speaker as /devices/platform/pcspkr/input/input7
+Sep 17 11:17:40 MySQLServer systemd[1]: Started /usr/sbin/lvm vgchange -aay --autoactivation event cs.
+Sep 17 11:17:40 MySQLServer lvm[701]:  2 logical volume(s) in volume group "cs" now active
+Sep 17 11:17:40 MySQLServer systemd-udevd[649]: vboxguest: /etc/udev/rules.d/60-vboxadd.rules:1 Only network interfaces can be renamed, ignoring NAME="vboxguest".
+Sep 17 11:17:40 MySQLServer systemd-udevd[652]: vboxuser: /etc/udev/rules.d/60-vboxadd.rules:2 Only network interfaces can be renamed, ignoring NAME="vboxuser".
+Sep 17 11:17:40 MySQLServer systemd[1]: lvm-activate-cs.service: Deactivated successfully.
+Sep 17 11:17:40 MySQLServer kernel: intel_rapl_common: Found RAPL domain package
+Sep 17 11:17:40 MySQLServer kernel: intel_rapl_common: Found RAPL domain core
+Sep 17 11:17:41 MySQLServer kernel: snd_intel8x0 0000:00:05.0: allow list rate for 1028:0177 is 48000
+Sep 17 11:17:41 MySQLServer systemd[1]: Dispatch Password Requests to Console Directory Watch was skipped because of an unmet condition check (ConditionPathExists=!/run/plymouth/pid).
+Sep 17 11:17:41 MySQLServer systemd[1]: Special handling of early boot iSCSI sessions was skipped because of an unmet condition check (ConditionDirectoryNotEmpty=/sys/class/iscsi_session).
+Sep 17 11:17:41 MySQLServer systemd[1]: OSTree Remount OS/ Bind Mounts was skipped because of an unmet condition check (ConditionKernelCommandLine=ostree).
+Sep 17 11:17:41 MySQLServer systemd[1]: First Boot Wizard was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+Sep 17 11:17:41 MySQLServer systemd[1]: First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+Sep 17 11:17:41 MySQLServer systemd[1]: Rebuild Hardware Database was skipped because of an unmet condition check (ConditionNeedsUpdate=/etc).
+Sep 17 11:17:41 MySQLServer systemd[1]: Repartition Root Disk was skipped because no trigger condition checks were met.
+Sep 17 11:17:41 MySQLServer systemd[1]: Create System Users was skipped because no trigger condition checks were met.
+Sep 17 11:17:41 MySQLServer systemd[1]: Finished Wait for udev To Complete Device Initialization.
+Sep 17 11:17:41 MySQLServer systemd[1]: Device-Mapper Multipath Device Controller was skipped because of an unmet condition check (ConditionPathExists=/etc/multipath.conf).
+Sep 17 11:17:41 MySQLServer systemd[1]: Reached target Preparation for Local File Systems.
+Sep 17 11:17:41 MySQLServer systemd[1]: Mounting /boot...
+Sep 17 11:17:41 MySQLServer systemd[1]: Mounting Mount unit for bare, revision 5...
+Sep 17 11:17:41 MySQLServer systemd[1]: Mounting Mount unit for core22, revision 864...
+Sep 17 11:17:41 MySQLServer kernel: XFS (sda1): Mounting V5 Filesystem
+Sep 17 11:17:41 MySQLServer systemd[1]: Mounting Mount unit for gnome-42-2204, revision 126...
+Sep 17 11:17:41 MySQLServer systemd[1]: Mounting Mount unit for gtk-common-themes, revision 1535...
+Sep 17 11:17:41 MySQLServer systemd[1]: Mounting Mount unit for mysql-workbench-community, revision 12...
+Sep 17 11:17:41 MySQLServer kernel: loop: module loaded
+Sep 17 11:17:41 MySQLServer systemd[1]: Mounting Mount unit for snapd, revision 19993...
+Sep 17 11:17:41 MySQLServer kernel: loop0: detected capacity change from 0 to 360104
+Sep 17 11:17:41 MySQLServer kernel: loop1: detected capacity change from 0 to 151352
+Sep 17 11:17:41 MySQLServer kernel: loop5: detected capacity change from 0 to 83648
+Sep 17 11:17:41 MySQLServer kernel: loop2: detected capacity change from 0 to 8
+Sep 17 11:17:41 MySQLServer kernel: loop3: detected capacity change from 0 to 187776
+Sep 17 11:17:41 MySQLServer kernel: loop4: detected capacity change from 0 to 994336
+Sep 17 11:17:41 MySQLServer kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Sep 17 11:17:41 MySQLServer kernel: XFS (sda1): Ending clean mount
+Sep 17 11:17:41 MySQLServer systemd[1]: Mounted Mount unit for gtk-common-themes, revision 1535.
+Sep 17 11:17:41 MySQLServer systemd[1]: Mounted /boot.
+Sep 17 11:17:41 MySQLServer systemd[1]: Mounted Mount unit for core22, revision 864.
+Sep 17 11:17:41 MySQLServer systemd[1]: Mounted Mount unit for gnome-42-2204, revision 126.
+Sep 17 11:17:41 MySQLServer systemd[1]: Mounted Mount unit for mysql-workbench-community, revision 12.
+Sep 17 11:17:41 MySQLServer systemd[1]: Mounted Mount unit for snapd, revision 19993.
+Sep 17 11:17:41 MySQLServer systemd[1]: Mounted Mount unit for bare, revision 5.
+Sep 17 11:17:41 MySQLServer systemd[1]: Reached target Local File Systems.
+Sep 17 11:17:41 MySQLServer systemd[1]: Rebuild Dynamic Linker Cache was skipped because no trigger condition checks were met.
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Sep 17 11:17:41 MySQLServer systemd[1]: Mark the need to relabel after reboot was skipped because of an unmet condition check (ConditionSecurity=!selinux).
+Sep 17 11:17:41 MySQLServer systemd[1]: Set Up Additional Binary Formats was skipped because no trigger condition checks were met.
+Sep 17 11:17:41 MySQLServer systemd[1]: Store a System Token in an EFI Variable was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/LoaderFeatures-4a67b082-0a4c-41cf-b6c7-440b29bb8c4f).
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting Automatic Boot Loader Update...
+Sep 17 11:17:41 MySQLServer systemd[1]: Commit a transient machine-id on disk was skipped because of an unmet condition check (ConditionPathIsMountPoint=/etc/machine-id).
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting Create Volatile Files and Directories...
+Sep 17 11:17:41 MySQLServer bootctl[762]: Couldn't find EFI system partition, skipping.
+Sep 17 11:17:41 MySQLServer systemd[1]: Finished Automatic Boot Loader Update.
+Sep 17 11:17:41 MySQLServer systemd[1]: Received SIGRTMIN+20 from PID 395 (plymouthd).
+Sep 17 11:17:41 MySQLServer systemd[1]: Finished Tell Plymouth To Write Out Runtime Data.
+Sep 17 11:17:41 MySQLServer systemd[1]: Finished Create Volatile Files and Directories.
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting Security Auditing Service...
+Sep 17 11:17:41 MySQLServer systemd[1]: Rebuild Journal Catalog was skipped because of an unmet condition check (ConditionNeedsUpdate=/var).
+Sep 17 11:17:41 MySQLServer systemd[1]: Update is Completed was skipped because no trigger condition checks were met.
+Sep 17 11:17:41 MySQLServer auditd[766]: audit dispatcher initialized with q_depth=1200 and 1 active plugins
+Sep 17 11:17:41 MySQLServer auditd[766]: Init complete, auditd 3.0.7 listening for events (startup state enable)
+Sep 17 11:17:41 MySQLServer augenrules[771]: /sbin/augenrules: No change
+Sep 17 11:17:41 MySQLServer augenrules[781]: No rules
+Sep 17 11:17:41 MySQLServer augenrules[781]: enabled 1
+Sep 17 11:17:41 MySQLServer augenrules[781]: failure 1
+Sep 17 11:17:41 MySQLServer augenrules[781]: pid 766
+Sep 17 11:17:41 MySQLServer augenrules[781]: rate_limit 0
+Sep 17 11:17:41 MySQLServer augenrules[781]: backlog_limit 8192
+Sep 17 11:17:41 MySQLServer augenrules[781]: lost 0
+Sep 17 11:17:41 MySQLServer augenrules[781]: backlog 3
+Sep 17 11:17:41 MySQLServer augenrules[781]: backlog_wait_time 60000
+Sep 17 11:17:41 MySQLServer augenrules[781]: backlog_wait_time_actual 0
+Sep 17 11:17:41 MySQLServer augenrules[781]: enabled 1
+Sep 17 11:17:41 MySQLServer augenrules[781]: failure 1
+Sep 17 11:17:41 MySQLServer augenrules[781]: pid 766
+Sep 17 11:17:41 MySQLServer augenrules[781]: rate_limit 0
+Sep 17 11:17:41 MySQLServer augenrules[781]: backlog_limit 8192
+Sep 17 11:17:41 MySQLServer augenrules[781]: lost 0
+Sep 17 11:17:41 MySQLServer augenrules[781]: backlog 3
+Sep 17 11:17:41 MySQLServer augenrules[781]: backlog_wait_time 60000
+Sep 17 11:17:41 MySQLServer augenrules[781]: backlog_wait_time_actual 0
+Sep 17 11:17:41 MySQLServer augenrules[781]: enabled 1
+Sep 17 11:17:41 MySQLServer augenrules[781]: failure 1
+Sep 17 11:17:41 MySQLServer augenrules[781]: pid 766
+Sep 17 11:17:41 MySQLServer augenrules[781]: rate_limit 0
+Sep 17 11:17:41 MySQLServer augenrules[781]: backlog_limit 8192
+Sep 17 11:17:41 MySQLServer augenrules[781]: lost 0
+Sep 17 11:17:41 MySQLServer augenrules[781]: backlog 3
+Sep 17 11:17:41 MySQLServer augenrules[781]: backlog_wait_time 60000
+Sep 17 11:17:41 MySQLServer augenrules[781]: backlog_wait_time_actual 0
+Sep 17 11:17:41 MySQLServer systemd[1]: Started Security Auditing Service.
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting Record System Boot/Shutdown in UTMP...
+Sep 17 11:17:41 MySQLServer systemd[1]: Finished Record System Boot/Shutdown in UTMP.
+Sep 17 11:17:41 MySQLServer systemd[1]: Reached target System Initialization.
+Sep 17 11:17:41 MySQLServer systemd[1]: Started CUPS Scheduler.
+Sep 17 11:17:41 MySQLServer systemd[1]: Started dnf makecache --timer.
+Sep 17 11:17:41 MySQLServer systemd[1]: Started Daily rotation of log files.
+Sep 17 11:17:41 MySQLServer systemd[1]: Started Updates mlocate database every day.
+Sep 17 11:17:41 MySQLServer systemd[1]: Started Daily Cleanup of Temporary Directories.
+Sep 17 11:17:41 MySQLServer systemd[1]: Reached target Path Units.
+Sep 17 11:17:41 MySQLServer systemd[1]: Reached target Timer Units.
+Sep 17 11:17:41 MySQLServer systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+Sep 17 11:17:41 MySQLServer systemd[1]: Listening on CUPS Scheduler.
+Sep 17 11:17:41 MySQLServer systemd[1]: Listening on D-Bus System Message Bus Socket.
+Sep 17 11:17:41 MySQLServer systemd[1]: Listening on Open-iSCSI iscsid Socket.
+Sep 17 11:17:41 MySQLServer systemd[1]: Listening on Open-iSCSI iscsiuio Socket.
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting Socket activation for snappy daemon...
+Sep 17 11:17:41 MySQLServer systemd[1]: Listening on SSSD Kerberos Cache Manager responder socket.
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting D-Bus System Message Bus...
+Sep 17 11:17:41 MySQLServer systemd[1]: TPM2 PCR Barrier (Initialization) was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/StubPcrKernelImage-4a67b082-0a4c-41cf-b6c7-440b29bb8c4f).
+Sep 17 11:17:41 MySQLServer systemd[1]: Listening on Socket activation for snappy daemon.
+Sep 17 11:17:41 MySQLServer systemd[1]: Reached target Socket Units.
+Sep 17 11:17:41 MySQLServer systemd[1]: Started D-Bus System Message Bus.
+Sep 17 11:17:41 MySQLServer systemd[1]: Reached target Basic System.
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting NTP client/server...
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting Restore /run/initramfs on shutdown...
+Sep 17 11:17:41 MySQLServer avahi-daemon[792]: Found user 'avahi' (UID 70) and group 'avahi' (GID 70).
+Sep 17 11:17:41 MySQLServer systemd[1]: Started irqbalance daemon.
+Sep 17 11:17:41 MySQLServer dbus-broker-lau[790]: Ready
+Sep 17 11:17:41 MySQLServer systemd[1]: Started libstoragemgmt plug-in server daemon.
+Sep 17 11:17:41 MySQLServer systemd[1]: Low Memory Monitor was skipped because of an unmet condition check (ConditionPathExists=/proc/pressure).
+Sep 17 11:17:41 MySQLServer systemd[1]: Started Machine Check Exception Logging Daemon.
+Sep 17 11:17:41 MySQLServer systemd[1]: Software RAID monitoring and management was skipped because of an unmet condition check (ConditionPathExists=/etc/mdadm.conf).
+Sep 17 11:17:41 MySQLServer systemd[1]: Load CPU microcode update was skipped because of an unmet condition check (ConditionPathExists=/sys/devices/system/cpu/microcode/reload).
+Sep 17 11:17:41 MySQLServer systemd[1]: Read-Only Sysroot Migration was skipped because of an unmet condition check (ConditionPathIsReadWrite=/sysroot).
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting Authorization Manager...
+Sep 17 11:17:41 MySQLServer mcelog[797]: mcelog: ERROR: AMD Processor family 23: mcelog does not support this processor.  Please use the edac_mce_amd module instead.
+Sep 17 11:17:41 MySQLServer mcelog[797]: CPU is unsupported
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting Power Profiles daemon...
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting RealtimeKit Scheduling Policy Service...
+Sep 17 11:17:41 MySQLServer systemd[1]: Self Monitoring and Reporting Technology (SMART) Daemon was skipped because of an unmet condition check (ConditionVirtualization=no).
+Sep 17 11:17:41 MySQLServer systemd[1]: OpenSSH ecdsa Server Key Generation was skipped because no trigger condition checks were met.
+Sep 17 11:17:41 MySQLServer systemd[1]: OpenSSH ed25519 Server Key Generation was skipped because no trigger condition checks were met.
+Sep 17 11:17:41 MySQLServer systemd[1]: OpenSSH rsa Server Key Generation was skipped because no trigger condition checks were met.
+Sep 17 11:17:41 MySQLServer systemd[1]: Reached target sshd-keygen.target.
+Sep 17 11:17:41 MySQLServer systemd[1]: System Security Services Daemon was skipped because no trigger condition checks were met.
+Sep 17 11:17:41 MySQLServer systemd[1]: Reached target User and Group Name Lookups.
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting Accounts Service...
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting Switcheroo Control Proxy service...
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting User Login Management...
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting Disk Manager...
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting Daemon for power management...
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting vboxadd.service...
+Sep 17 11:17:41 MySQLServer systemd[1]: VGAuth Service for open-vm-tools was skipped because of an unmet condition check (ConditionVirtualization=vmware).
+Sep 17 11:17:41 MySQLServer systemd[1]: Service for virtual machines hosted on VMware was skipped because of an unmet condition check (ConditionVirtualization=vmware).
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting Rotate log files...
+Sep 17 11:17:41 MySQLServer systemd[1]: Started Update a database for mlocate.
+Sep 17 11:17:41 MySQLServer systemd[1]: Finished Restore /run/initramfs on shutdown.
+Sep 17 11:17:41 MySQLServer systemd[1]: mcelog.service: Main process exited, code=exited, status=1/FAILURE
+Sep 17 11:17:41 MySQLServer systemd[1]: mcelog.service: Failed with result 'exit-code'.
+Sep 17 11:17:41 MySQLServer avahi-daemon[792]: Successfully dropped root privileges.
+Sep 17 11:17:41 MySQLServer udisksd[805]: udisks daemon version 2.9.4 starting
+Sep 17 11:17:41 MySQLServer avahi-daemon[792]: avahi-daemon 0.8 starting up.
+Sep 17 11:17:41 MySQLServer avahi-daemon[792]: WARNING: No NSS support for mDNS detected, consider installing nss-mdns!
+Sep 17 11:17:41 MySQLServer avahi-daemon[792]: Successfully called chroot().
+Sep 17 11:17:41 MySQLServer avahi-daemon[792]: Successfully dropped remaining capabilities.
+Sep 17 11:17:41 MySQLServer avahi-daemon[792]: No service file found in /etc/avahi/services.
+Sep 17 11:17:41 MySQLServer chronyd[823]: chronyd version 4.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 +DEBUG)
+Sep 17 11:17:41 MySQLServer avahi-daemon[792]: Joining mDNS multicast group on interface lo.IPv6 with address ::1.
+Sep 17 11:17:41 MySQLServer avahi-daemon[792]: New relevant interface lo.IPv6 for mDNS.
+Sep 17 11:17:41 MySQLServer avahi-daemon[792]: Joining mDNS multicast group on interface lo.IPv4 with address 127.0.0.1.
+Sep 17 11:17:41 MySQLServer avahi-daemon[792]: New relevant interface lo.IPv4 for mDNS.
+Sep 17 11:17:41 MySQLServer avahi-daemon[792]: Network interface enumeration completed.
+Sep 17 11:17:41 MySQLServer avahi-daemon[792]: Registering new address record for ::1 on lo.*.
+Sep 17 11:17:41 MySQLServer avahi-daemon[792]: Registering new address record for 127.0.0.1 on lo.IPv4.
+Sep 17 11:17:41 MySQLServer chronyd[823]: Frequency -28.048 +/- 3.741 ppm read from /var/lib/chrony/drift
+Sep 17 11:17:41 MySQLServer chronyd[823]: Using right/UTC timezone to obtain leap second data
+Sep 17 11:17:41 MySQLServer chronyd[823]: Loaded seccomp filter (level 2)
+Sep 17 11:17:41 MySQLServer systemd[1]: Started NTP client/server.
+Sep 17 11:17:41 MySQLServer polkitd[798]: Started polkitd version 0.117
+Sep 17 11:17:41 MySQLServer systemd[1]: Started RealtimeKit Scheduling Policy Service.
+Sep 17 11:17:41 MySQLServer systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+Sep 17 11:17:41 MySQLServer systemd[1]: Started Switcheroo Control Proxy service.
+Sep 17 11:17:41 MySQLServer systemd[1]: Save/Restore Sound Card State was skipped because of an unmet condition check (ConditionPathExists=!/etc/alsa/state-daemon.conf).
+Sep 17 11:17:41 MySQLServer systemd[1]: Started Manage Sound Card State (restore and store).
+Sep 17 11:17:41 MySQLServer systemd[1]: Reached target Sound Card.
+Sep 17 11:17:41 MySQLServer alsactl[837]: alsactl 1.2.9 daemon started
+Sep 17 11:17:41 MySQLServer alsactl[837]: alsa-lib main.c:1560:(snd_use_case_mgr_open) error: failed to import hw:0 use case configuration -2
+Sep 17 11:17:41 MySQLServer systemd-logind[804]: New seat seat0.
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting Load Kernel Module drm...
+Sep 17 11:17:41 MySQLServer systemd-logind[804]: Watching system buttons on /dev/input/event0 (Power Button)
+Sep 17 11:17:41 MySQLServer systemd-logind[804]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Sep 17 11:17:41 MySQLServer systemd-logind[804]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Sep 17 11:17:41 MySQLServer systemd[1]: modprobe@drm.service: Deactivated successfully.
+Sep 17 11:17:41 MySQLServer systemd[1]: Finished Load Kernel Module drm.
+Sep 17 11:17:41 MySQLServer systemd[1]: Started User Login Management.
+Sep 17 11:17:41 MySQLServer systemd[1]: Started Daemon for power management.
+Sep 17 11:17:41 MySQLServer systemd[1]: logrotate.service: Deactivated successfully.
+Sep 17 11:17:41 MySQLServer systemd[1]: Finished Rotate log files.
+Sep 17 11:17:41 MySQLServer systemd[1]: Started Authorization Manager.
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting Modem Manager...
+Sep 17 11:17:41 MySQLServer accounts-daemon[802]: started daemon version 0.6.55
+Sep 17 11:17:41 MySQLServer vboxadd[807]: VirtualBox Guest Additions: Starting.
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting firewalld - dynamic firewall daemon...
+Sep 17 11:17:41 MySQLServer systemd[1]: Started Power Profiles daemon.
+Sep 17 11:17:41 MySQLServer systemd[1]: Started Accounts Service.
+Sep 17 11:17:41 MySQLServer ModemManager[876]: <info>  ModemManager (version 1.20.2-1.el9) starting in system bus...
+Sep 17 11:17:41 MySQLServer systemd[1]: Started Disk Manager.
+Sep 17 11:17:41 MySQLServer kernel: NET: Registered PF_QIPCRTR protocol family
+Sep 17 11:17:41 MySQLServer systemd[1]: Started Modem Manager.
+Sep 17 11:17:41 MySQLServer udisksd[805]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Sep 17 11:17:41 MySQLServer systemd[1]: Finished vboxadd.service.
+Sep 17 11:17:41 MySQLServer systemd[1]: Starting vboxadd-service.service...
+Sep 17 11:17:41 MySQLServer vboxadd-service[1097]: vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Sep 17 11:17:41 MySQLServer vboxadd-service.sh[1100]: Starting VirtualBox Guest Addition service.
+Sep 17 11:17:41 MySQLServer kernel: 09:17:41.892423 main     VBoxService 7.0.10 r158379 (verbosity: 0) linux.amd64 (Jul 12 2023 20:36:16) release log#01209:17:41.892426 main     Log opened 2023-09-17T09:17:41.892418000Z
+Sep 17 11:17:41 MySQLServer kernel: 09:17:41.892527 main     OS Product: Linux
+Sep 17 11:17:41 MySQLServer kernel: 09:17:41.892544 main     OS Release: 5.14.0-364.el9.x86_64
+Sep 17 11:17:41 MySQLServer kernel: 09:17:41.892556 main     OS Version: #1 SMP PREEMPT_DYNAMIC Fri Sep 8 19:51:25 UTC 2023
+Sep 17 11:17:41 MySQLServer kernel: 09:17:41.892592 main     Executable: /opt/VBoxGuestAdditions-7.0.10/sbin/VBoxService#01209:17:41.892592 main     Process ID: 1103#01209:17:41.892593 main     Package type: LINUX_64BITS_GENERIC
+Sep 17 11:17:41 MySQLServer kernel: 09:17:41.894947 main     7.0.10 r158379 started. Verbose level = 0
+Sep 17 11:17:41 MySQLServer kernel: 09:17:41.895870 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Sep 17 11:17:41 MySQLServer vboxadd-service.sh[1110]: VirtualBox Guest Addition service started.
+Sep 17 11:17:41 MySQLServer systemd[1]: Started vboxadd-service.service.
+Sep 17 11:17:41 MySQLServer kernel: vboxsf: g_fHostFeatures=0x8000000f g_fSfFeatures=0x1 g_uSfLastFunction=29
+Sep 17 11:17:41 MySQLServer kernel: vboxsf: Successfully loaded version 7.0.10 r158379
+Sep 17 11:17:41 MySQLServer kernel: vboxsf: Successfully loaded version 7.0.10 r158379 on 5.14.0-364.el9.x86_64 (LINUX_VERSION_CODE=0x50e00)
+Sep 17 11:17:41 MySQLServer kernel: 09:17:41.911770 automount vbsvcAutomounterMountIt: Successfully mounted 'host-media' on '/media/sf_host-media'
+Sep 17 11:17:41 MySQLServer kernel: 09:17:41.915664 automount vbsvcAutomounterMountIt: Successfully mounted 'host-sebas' on '/media/sf_host-sebas'
+Sep 17 11:17:42 MySQLServer systemd[1]: Started firewalld - dynamic firewall daemon.
+Sep 17 11:17:42 MySQLServer systemd[1]: Reached target Preparation for Network.
+Sep 17 11:17:42 MySQLServer systemd[1]: Starting Network Manager...
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.1191] NetworkManager (version 1.45.2-1.el9) is starting... (boot:40727291-6261-4e7b-8409-5dd33cca07fa)
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.1195] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 00-server.conf) (run: 15-carrier-timeout.conf)
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.1257] manager[0x557a2ae75080]: monitoring kernel firmware directory '/lib/firmware'.
+Sep 17 11:17:42 MySQLServer systemd[1]: Starting Hostname Service...
+Sep 17 11:17:42 MySQLServer systemd[1]: Started Hostname Service.
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.1839] hostname: hostname: using hostnamed
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.1840] hostname: static hostname changed from (none) to "MySQLServer"
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.1849] dns-mgr: init: dns=default,systemd-resolved rc-manager=symlink (auto)
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.1930] manager[0x557a2ae75080]: rfkill: Wi-Fi hardware radio set enabled
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.1931] manager[0x557a2ae75080]: rfkill: WWAN hardware radio set enabled
+Sep 17 11:17:42 MySQLServer systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2015] Loaded device plugin: NMBluezManager (/usr/lib64/NetworkManager/1.45.2-1.el9/libnm-device-plugin-bluetooth.so)
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2025] Loaded device plugin: NMAtmManager (/usr/lib64/NetworkManager/1.45.2-1.el9/libnm-device-plugin-adsl.so)
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2044] Loaded device plugin: NMTeamFactory (/usr/lib64/NetworkManager/1.45.2-1.el9/libnm-device-plugin-team.so)
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2056] Loaded device plugin: NMWifiFactory (/usr/lib64/NetworkManager/1.45.2-1.el9/libnm-device-plugin-wifi.so)
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2063] Loaded device plugin: NMWwanFactory (/usr/lib64/NetworkManager/1.45.2-1.el9/libnm-device-plugin-wwan.so)
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2065] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2069] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2070] manager: Networking is enabled by state file
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2078] settings: Loaded settings plugin: keyfile (internal)
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2096] settings: Loaded settings plugin: ifcfg-rh ("/usr/lib64/NetworkManager/1.45.2-1.el9/libnm-settings-plugin-ifcfg-rh.so")
+Sep 17 11:17:42 MySQLServer systemd[1]: Starting Network Manager Script Dispatcher Service...
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2130] dhcp: init: Using DHCP client 'internal'
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2134] manager: (lo): new Loopback device (/org/freedesktop/NetworkManager/Devices/1)
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2150] device (lo): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2157] device (lo): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2166] device (lo): Activation: starting connection 'lo' (79fa8dc1-b76a-4330-9bd0-44547746abe3)
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2177] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2182] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Sep 17 11:17:42 MySQLServer kernel: e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: None
+Sep 17 11:17:42 MySQLServer kernel: IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Sep 17 11:17:42 MySQLServer systemd[1]: Started Network Manager.
+Sep 17 11:17:42 MySQLServer systemd[1]: Reached target Network.
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2248] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2261] device (lo): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2264] device (lo): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2266] device (lo): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2269] device (enp0s3): carrier: link connected
+Sep 17 11:17:42 MySQLServer systemd[1]: Starting Network Manager Wait Online...
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2273] device (lo): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+Sep 17 11:17:42 MySQLServer systemd[1]: Starting CUPS Scheduler...
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2288] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Sep 17 11:17:42 MySQLServer systemd[1]: Starting OpenSSH server daemon...
+Sep 17 11:17:42 MySQLServer systemd[1]: Started Network Manager Script Dispatcher Service.
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2379] policy: auto-activating connection 'enp0s3' (9789ed49-33ed-3221-bc2e-5cf7a61897da)
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2381] device (lo): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2384] device (enp0s3): Activation: starting connection 'enp0s3' (9789ed49-33ed-3221-bc2e-5cf7a61897da)
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2384] device (lo): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2387] device (lo): Activation: successful, device activated.
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2391] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2393] manager: NetworkManager state is now CONNECTING
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2394] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.2760] modem-manager: ModemManager available
+Sep 17 11:17:42 MySQLServer systemd[1]: Started OpenSSH server daemon.
+Sep 17 11:17:42 MySQLServer systemd[1]: Started CUPS Scheduler.
+Sep 17 11:17:42 MySQLServer avahi-daemon[792]: Server startup complete. Host name is MySQLServer.local. Local service cookie is 481691550.
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.6732] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.6754] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 17 11:17:42 MySQLServer avahi-daemon[792]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::a00:27ff:fe02:30e8.
+Sep 17 11:17:42 MySQLServer avahi-daemon[792]: New relevant interface enp0s3.IPv6 for mDNS.
+Sep 17 11:17:42 MySQLServer avahi-daemon[792]: Registering new address record for fe80::a00:27ff:fe02:30e8 on enp0s3.*.
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.6790] dhcp4 (enp0s3): state changed new lease, address=192.168.0.105
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.6795] policy: set 'enp0s3' (enp0s3) as default for IPv4 routing and DNS
+Sep 17 11:17:42 MySQLServer avahi-daemon[792]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 192.168.0.105.
+Sep 17 11:17:42 MySQLServer avahi-daemon[792]: New relevant interface enp0s3.IPv4 for mDNS.
+Sep 17 11:17:42 MySQLServer avahi-daemon[792]: Registering new address record for 192.168.0.105 on enp0s3.IPv4.
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.7376] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.7399] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.7404] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.7409] manager: NetworkManager state is now CONNECTED_SITE
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.7413] device (enp0s3): Activation: successful, device activated.
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.7419] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep 17 11:17:42 MySQLServer NetworkManager[1128]: <info>  [1694942262.7423] manager: startup complete
+Sep 17 11:17:42 MySQLServer systemd[1]: Finished Network Manager Wait Online.
+Sep 17 11:17:42 MySQLServer systemd[1]: Reached target Network is Online.
+Sep 17 11:17:42 MySQLServer systemd[1]: Login and scanning of iSCSI devices was skipped because of an unmet condition check (ConditionDirectoryNotEmpty=/var/lib/iscsi/nodes).
+Sep 17 11:17:42 MySQLServer systemd[1]: Reached target Preparation for Remote File Systems.
+Sep 17 11:17:42 MySQLServer systemd[1]: Reached target Remote File Systems.
+Sep 17 11:17:42 MySQLServer systemd[1]: Starting Crash recovery kernel arming...
+Sep 17 11:17:42 MySQLServer systemd[1]: Starting System Logging Service...
+Sep 17 11:17:42 MySQLServer systemd[1]: TPM2 PCR Barrier (User) was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/StubPcrKernelImage-4a67b082-0a4c-41cf-b6c7-440b29bb8c4f).
+Sep 17 11:17:42 MySQLServer systemd[1]: Starting Permit User Sessions...
+Sep 17 11:17:42 MySQLServer systemd[1]: iscsi.service: Unit cannot be reloaded because it is inactive.
+Sep 17 11:17:42 MySQLServer systemd[1]: Finished Permit User Sessions.
+Sep 17 11:17:42 MySQLServer systemd[1]: Started Deferred execution scheduler.
+Sep 17 11:17:42 MySQLServer systemd[1]: Started Command Scheduler.
+Sep 17 11:17:42 MySQLServer systemd[1]: Starting GNOME Display Manager...
+Sep 17 11:17:42 MySQLServer systemd[1]: Starting Hold until boot process finishes up...
+Sep 17 11:17:42 MySQLServer systemd[1]: Started GNOME Display Manager.
+Sep 17 11:17:42 MySQLServer systemd[1]: Received SIGRTMIN+21 from PID 395 (plymouthd).
+Sep 17 11:17:42 MySQLServer rsyslogd[1215]: [origin software="rsyslogd" swVersion="8.2102.0-117.el9" x-pid="1215" x-info="https://www.rsyslog.com"] start
+Sep 17 11:17:42 MySQLServer systemd[1]: Started System Logging Service.
+Sep 17 11:17:42 MySQLServer systemd[1]: Created slice User Slice of UID 42.
+Sep 17 11:17:42 MySQLServer systemd[1]: Starting User Runtime Directory /run/user/42...
+Sep 17 11:17:42 MySQLServer systemd-logind[804]: New session c1 of user gdm.
+Sep 17 11:17:42 MySQLServer systemd[1]: Finished User Runtime Directory /run/user/42.
+Sep 17 11:17:42 MySQLServer systemd[1]: Starting User Manager for UID 42...
+Sep 17 11:17:42 MySQLServer rsyslogd[1215]: imjournal: journal files changed, reloading...  [v8.2102.0-117.el9 try https://www.rsyslog.com/e/0 ]
+Sep 17 11:17:43 MySQLServer systemd[1294]: Queued start job for default target Main User Target.
+Sep 17 11:17:43 MySQLServer systemd[1294]: Created slice User Application Slice.
+Sep 17 11:17:43 MySQLServer systemd[1294]: Mark boot as successful after the user session has run 2 minutes was skipped because of an unmet condition check (ConditionUser=!@system).
+Sep 17 11:17:43 MySQLServer systemd[1294]: Started Daily Cleanup of User's Temporary Directories.
+Sep 17 11:17:43 MySQLServer systemd[1294]: Reached target Paths.
+Sep 17 11:17:43 MySQLServer systemd[1294]: Reached target Timers.
+Sep 17 11:17:43 MySQLServer systemd[1294]: Starting D-Bus User Message Bus Socket...
+Sep 17 11:17:43 MySQLServer systemd[1294]: Listening on PipeWire PulseAudio.
+Sep 17 11:17:43 MySQLServer systemd[1294]: Listening on PipeWire Multimedia System Socket.
+Sep 17 11:17:43 MySQLServer systemd[1294]: Starting Create User's Volatile Files and Directories...
+Sep 17 11:17:43 MySQLServer systemd[1294]: Finished Create User's Volatile Files and Directories.
+Sep 17 11:17:43 MySQLServer systemd[1294]: Listening on D-Bus User Message Bus Socket.
+Sep 17 11:17:43 MySQLServer systemd[1294]: Reached target Sockets.
+Sep 17 11:17:43 MySQLServer systemd[1294]: Reached target Basic System.
+Sep 17 11:17:43 MySQLServer systemd[1294]: Reached target Main User Target.
+Sep 17 11:17:43 MySQLServer systemd[1294]: Startup finished in 157ms.
+Sep 17 11:17:43 MySQLServer systemd[1]: Started User Manager for UID 42.
+Sep 17 11:17:43 MySQLServer systemd[1]: Started Session c1 of User gdm.
+Sep 17 11:17:43 MySQLServer systemd[1294]: Starting D-Bus User Message Bus...
+Sep 17 11:17:43 MySQLServer dbus-broker-launch[1448]: Policy to allow eavesdropping in /usr/share/dbus-1/session.conf +31: Eavesdropping is deprecated and ignored
+Sep 17 11:17:43 MySQLServer dbus-broker-launch[1448]: Policy to allow eavesdropping in /usr/share/dbus-1/session.conf +33: Eavesdropping is deprecated and ignored
+Sep 17 11:17:43 MySQLServer systemd[1294]: Started D-Bus User Message Bus.
+Sep 17 11:17:43 MySQLServer dbus-broker-lau[1448]: Ready
+Sep 17 11:17:43 MySQLServer /usr/libexec/gdm-wayland-session[1467]: dbus-daemon[1467]: Cannot setup inotify for '/var/lib/snapd/dbus-1/services/'; error 'Permission denied'
+Sep 17 11:17:43 MySQLServer systemd[1]: mlocate-updatedb.service: Deactivated successfully.
+Sep 17 11:17:43 MySQLServer kernel: block dm-0: the capability attribute has been deprecated.
+Sep 17 11:17:43 MySQLServer gnome-shell[1543]: Adding device '/dev/dri/card0' (vmwgfx) using non-atomic mode setting (using atomic mode setting not allowed).
+Sep 17 11:17:43 MySQLServer org.gnome.Shell.desktop[1543]: VMware: No 3D enabled (0, Conseguido).
+Sep 17 11:17:43 MySQLServer org.gnome.Shell.desktop[1543]: VMware: No 3D enabled (0, Conseguido).
+Sep 17 11:17:43 MySQLServer gnome-shell[1543]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Do not want to use software renderer (llvmpipe (LLVM 16.0.6, 256 bits)), falling back to CPU copy path
+Sep 17 11:17:43 MySQLServer org.gnome.Shell.desktop[1543]: VMware: No 3D enabled (0, Conseguido).
+Sep 17 11:17:43 MySQLServer org.gnome.Shell.desktop[1543]: libEGL warning: egl: failed to create dri2 screen
+Sep 17 11:17:43 MySQLServer org.gnome.Shell.desktop[1543]: VMware: No 3D enabled (0, Conseguido).
+Sep 17 11:17:43 MySQLServer org.gnome.Shell.desktop[1543]: libEGL warning: egl: failed to create dri2 screen
+Sep 17 11:17:43 MySQLServer gnome-shell[1543]: Created gbm renderer for '/dev/dri/card0'
+Sep 17 11:17:43 MySQLServer gnome-shell[1543]: Boot VGA GPU /dev/dri/card0 selected as primary
+Sep 17 11:17:43 MySQLServer kdumpctl[1233]: kdump: kexec: loaded kdump kernel
+Sep 17 11:17:43 MySQLServer kdumpctl[1233]: kdump: Starting kdump: [OK]
+Sep 17 11:17:43 MySQLServer systemd[1]: Finished Crash recovery kernel arming.
+Sep 17 11:17:44 MySQLServer gnome-shell[1543]: Disabling DMA buffer screen sharing for driver 'vmwgfx'.
+Sep 17 11:17:44 MySQLServer gnome-shell[1543]: Using public X11 display :1024, (using :1025 for managed services)
+Sep 17 11:17:44 MySQLServer gnome-shell[1543]: Using Wayland display name 'wayland-0'
+Sep 17 11:17:44 MySQLServer /usr/libexec/gdm-wayland-session[1467]: dbus-daemon[1467]: [session uid=42 pid=1467] Activating service name='org.a11y.Bus' requested by ':1.4' (uid=42 pid=1543 comm="/usr/bin/gnome-shell " label="system_u:system_r:xdm_t:s0-s0:c0.c1023")
+Sep 17 11:17:44 MySQLServer /usr/libexec/gdm-wayland-session[1467]: dbus-daemon[1467]: [session uid=42 pid=1467] Successfully activated service 'org.a11y.Bus'
+Sep 17 11:17:44 MySQLServer org.gnome.Shell.desktop[1738]: VMware: No 3D enabled (0, Success).
+Sep 17 11:17:44 MySQLServer org.gnome.Shell.desktop[1738]: libEGL warning: egl: failed to create dri2 screen
+Sep 17 11:17:44 MySQLServer org.gnome.Shell.desktop[1738]: VMware: No 3D enabled (0, Success).
+Sep 17 11:17:44 MySQLServer org.gnome.Shell.desktop[1738]: libEGL warning: egl: failed to create dri2 screen
+Sep 17 11:17:44 MySQLServer ModemManager[876]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Sep 17 11:17:44 MySQLServer gnome-shell[1543]: Skipping parental controls support as it’s disabled
+Sep 17 11:17:44 MySQLServer gnome-shell[1543]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+Sep 17 11:17:44 MySQLServer gnome-shell[1543]: Will monitor session c1
+Sep 17 11:17:44 MySQLServer systemd[1]: Starting Locale Service...
+Sep 17 11:17:44 MySQLServer systemd[1]: Started Locale Service.
+Sep 17 11:17:44 MySQLServer /usr/libexec/gdm-wayland-session[1467]: dbus-daemon[1467]: [session uid=42 pid=1467] Activating service name='org.freedesktop.portal.IBus' requested by ':1.6' (uid=42 pid=1740 comm="ibus-daemon --panel disable " label="system_u:system_r:xdm_t:s0-s0:c0.c1023")
+Sep 17 11:17:44 MySQLServer /usr/libexec/gdm-wayland-session[1467]: dbus-daemon[1467]: [session uid=42 pid=1467] Successfully activated service 'org.freedesktop.portal.IBus'
+Sep 17 11:17:44 MySQLServer /usr/libexec/gdm-wayland-session[1467]: dbus-daemon[1467]: [session uid=42 pid=1467] Activating service name='org.freedesktop.impl.portal.PermissionStore' requested by ':1.3' (uid=42 pid=1543 comm="/usr/bin/gnome-shell " label="system_u:system_r:xdm_t:s0-s0:c0.c1023")
+Sep 17 11:17:44 MySQLServer /usr/libexec/gdm-wayland-session[1467]: dbus-daemon[1467]: [session uid=42 pid=1467] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Sep 17 11:17:44 MySQLServer systemd[1294]: Created slice User Core Session Slice.
+Sep 17 11:17:44 MySQLServer systemd[1294]: Started PipeWire Multimedia Service.
+Sep 17 11:17:44 MySQLServer systemd[1294]: Started Multimedia Service Session Manager.
+Sep 17 11:17:44 MySQLServer systemd[1294]: Started PipeWire PulseAudio.
+Sep 17 11:17:44 MySQLServer pipewire-pulse[1761]: mod.rt: Can't find org.freedesktop.portal.Desktop. Is xdg-desktop-portal running?
+Sep 17 11:17:44 MySQLServer pipewire[1759]: mod.rt: Can't find org.freedesktop.portal.Desktop. Is xdg-desktop-portal running?
+Sep 17 11:17:44 MySQLServer pipewire[1759]: mod.rt: found session bus but no portal
+Sep 17 11:17:44 MySQLServer pipewire-pulse[1761]: mod.rt: found session bus but no portal
+Sep 17 11:17:44 MySQLServer wireplumber[1760]: Can't find org.freedesktop.portal.Desktop. Is xdg-desktop-portal running?
+Sep 17 11:17:44 MySQLServer wireplumber[1760]: found session bus but no portal
+Sep 17 11:17:44 MySQLServer systemd[1]: Starting Location Lookup Service...
+Sep 17 11:17:44 MySQLServer rtkit-daemon[800]: Successfully made thread 1761 of process 1761 (/usr/bin/pipewire-pulse) owned by '42' high priority at nice level -11.
+Sep 17 11:17:44 MySQLServer rtkit-daemon[800]: Successfully made thread 1759 of process 1759 (/usr/bin/pipewire) owned by '42' high priority at nice level -11.
+Sep 17 11:17:44 MySQLServer systemd[1]: Starting WPA supplicant...
+Sep 17 11:17:44 MySQLServer systemd[1]: Started WPA supplicant.
+Sep 17 11:17:44 MySQLServer wpa_supplicant[1778]: Successfully initialized wpa_supplicant
+Sep 17 11:17:44 MySQLServer systemd[1]: Starting PackageKit Daemon...
+Sep 17 11:17:44 MySQLServer systemd[1]: Started Location Lookup Service.
+Sep 17 11:17:44 MySQLServer rtkit-daemon[800]: Successfully made thread 1760 of process 1760 (/usr/bin/wireplumber) owned by '42' high priority at nice level -11.
+Sep 17 11:17:44 MySQLServer rtkit-daemon[800]: Successfully made thread 1784 of process 1760 (/usr/bin/wireplumber) owned by '42' RT at priority 20.
+Sep 17 11:17:44 MySQLServer rtkit-daemon[800]: Successfully made thread 1788 of process 1761 (/usr/bin/pipewire-pulse) owned by '42' RT at priority 20.
+Sep 17 11:17:44 MySQLServer rtkit-daemon[800]: Successfully made thread 1786 of process 1759 (/usr/bin/pipewire) owned by '42' RT at priority 20.
+Sep 17 11:17:44 MySQLServer wireplumber[1760]: Failed to set scheduler settings: Operación no permitida
+Sep 17 11:17:44 MySQLServer wireplumber[1760]: SPA handle 'api.libcamera.enum.manager' could not be loaded; is it installed?
+Sep 17 11:17:44 MySQLServer wireplumber[1760]: PipeWire's libcamera SPA missing or broken. libcamera not supported.
+Sep 17 11:17:44 MySQLServer systemd[1]: Started PackageKit Daemon.
+Sep 17 11:17:44 MySQLServer wireplumber[1760]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Sep 17 11:17:44 MySQLServer wireplumber[1760]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Sep 17 11:17:44 MySQLServer wireplumber[1760]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Sep 17 11:17:44 MySQLServer wireplumber[1760]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Sep 17 11:17:44 MySQLServer wireplumber[1760]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Sep 17 11:17:44 MySQLServer wireplumber[1760]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Sep 17 11:17:44 MySQLServer wireplumber[1760]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Sep 17 11:17:44 MySQLServer wireplumber[1760]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Sep 17 11:17:44 MySQLServer wireplumber[1760]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Sep 17 11:17:44 MySQLServer wireplumber[1760]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Sep 17 11:17:44 MySQLServer wireplumber[1760]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NameHasNoOwner
+Sep 17 11:17:44 MySQLServer /usr/libexec/gdm-wayland-session[1467]: dbus-daemon[1467]: [session uid=42 pid=1467] Activating service name='org.gnome.Shell.Notifications' requested by ':1.3' (uid=42 pid=1543 comm="/usr/bin/gnome-shell " label="system_u:system_r:xdm_t:s0-s0:c0.c1023")
+Sep 17 11:17:44 MySQLServer /usr/libexec/gdm-wayland-session[1732]: dbus-daemon[1732]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=42 pid=1543 comm="/usr/bin/gnome-shell " label="system_u:system_r:xdm_t:s0-s0:c0.c1023")
+Sep 17 11:17:44 MySQLServer wireplumber[1760]: <WpSiAudioAdapter:0x557095f19060> Object activation aborted: proxy destroyed
+Sep 17 11:17:44 MySQLServer wireplumber[1760]: <WpSiAudioAdapter:0x557095f19060> failed to activate item: Object activation aborted: proxy destroyed
+Sep 17 11:17:44 MySQLServer /usr/libexec/gdm-wayland-session[1732]: dbus-daemon[1732]: Successfully activated service 'org.a11y.atspi.Registry'
+Sep 17 11:17:44 MySQLServer /usr/libexec/gdm-wayland-session[1804]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Sep 17 11:17:44 MySQLServer dbus-broker[791]: A security policy denied :1.26 to send method call /org/freedesktop/PackageKit:org.freedesktop.DBus.Properties.GetAll to :1.36.
+Sep 17 11:17:44 MySQLServer /usr/libexec/gdm-wayland-session[1467]: dbus-daemon[1467]: [session uid=42 pid=1467] Successfully activated service 'org.gnome.Shell.Notifications'
+Sep 17 11:17:44 MySQLServer NetworkManager[1128]: <info>  [1694942264.9514] dhcp6 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep 17 11:17:45 MySQLServer /usr/libexec/gdm-wayland-session[1467]: dbus-daemon[1467]: [session uid=42 pid=1467] Activating service name='org.freedesktop.systemd1' requested by ':1.12' (uid=42 pid=1812 comm="/usr/libexec/gsd-sharing " label="system_u:system_r:xdm_t:s0-s0:c0.c1023")
+Sep 17 11:17:45 MySQLServer dbus-broker[791]: A security policy denied :1.26 to send method call /org/freedesktop/PackageKit:org.freedesktop.DBus.Properties.GetAll to :1.36.
+Sep 17 11:17:45 MySQLServer /usr/libexec/gdm-wayland-session[1467]: dbus-daemon[1467]: [session uid=42 pid=1467] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 17 11:17:45 MySQLServer gsd-sharing[1812]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 17 11:17:45 MySQLServer gsd-sharing[1812]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 17 11:17:45 MySQLServer gsd-sharing[1812]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 17 11:17:45 MySQLServer gnome-shell[1543]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep 17 11:17:45 MySQLServer org.gnome.Shell.desktop[1738]: Failed to initialize glamor, falling back to sw
+Sep 17 11:17:45 MySQLServer systemd[1]: Starting Fingerprint Authentication Daemon...
+Sep 17 11:17:45 MySQLServer cupsd[1150]: REQUEST localhost - - "POST / HTTP/1.1" 200 359 Create-Printer-Subscriptions successful-ok
+Sep 17 11:17:45 MySQLServer systemd[1]: Started Fingerprint Authentication Daemon.
+Sep 17 11:17:45 MySQLServer systemd[1]: Starting Realm and Domain Configuration...
+Sep 17 11:17:45 MySQLServer systemd[1]: Started Realm and Domain Configuration.
+Sep 17 11:17:45 MySQLServer gnome-shell[1543]: ATK Bridge is disabled but a11y has already been enabled.
+Sep 17 11:17:45 MySQLServer /usr/libexec/gdm-wayland-session[1467]: dbus-daemon[1467]: [session uid=42 pid=1467] Activating service name='org.freedesktop.portal.IBus' requested by ':1.33' (uid=42 pid=1967 comm="ibus-daemon --panel disable -r --xim " label="system_u:system_r:xdm_t:s0-s0:c0.c1023")
+Sep 17 11:17:45 MySQLServer systemd[1]: Starting Manage, Install and Generate Color Profiles...
+Sep 17 11:17:45 MySQLServer colord[1991]: failed to get edid data: EDID length is too small
+Sep 17 11:17:45 MySQLServer systemd[1]: Started Manage, Install and Generate Color Profiles.
+Sep 17 11:17:45 MySQLServer /usr/libexec/gdm-wayland-session[1467]: dbus-daemon[1467]: [session uid=42 pid=1467] Successfully activated service 'org.freedesktop.portal.IBus'
+Sep 17 11:17:45 MySQLServer gnome-session-binary[1468]: Entering running state
+Sep 17 11:17:45 MySQLServer /usr/libexec/gdm-wayland-session[1467]: dbus-daemon[1467]: [session uid=42 pid=1467] Activating service name='org.gnome.ScreenSaver' requested by ':1.26' (uid=42 pid=1856 comm="/usr/libexec/gsd-power " label="system_u:system_r:xdm_t:s0-s0:c0.c1023")
+Sep 17 11:17:45 MySQLServer /usr/libexec/gdm-wayland-session[1467]: dbus-daemon[1467]: [session uid=42 pid=1467] Activating service name='org.gnome.Shell.Screencast' requested by ':1.25' (uid=42 pid=1842 comm="/usr/libexec/gsd-media-keys " label="system_u:system_r:xdm_t:s0-s0:c0.c1023")
+Sep 17 11:17:45 MySQLServer gsd-color[1817]: failed to get edid: unable to get EDID for output
+Sep 17 11:17:45 MySQLServer /usr/libexec/gdm-wayland-session[1467]: dbus-daemon[1467]: [session uid=42 pid=1467] Successfully activated service 'org.gnome.ScreenSaver'
+Sep 17 11:17:45 MySQLServer NetworkManager[1128]: <info>  [1694942265.5415] agent-manager: agent[af75998d01571d6c,:1.26/org.gnome.Shell.NetworkAgent/42]: agent registered
+Sep 17 11:17:45 MySQLServer gsd-media-keys[1842]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep 17 11:17:45 MySQLServer gsd-media-keys[1842]: Failed to grab accelerator for keybinding settings:hibernate
+Sep 17 11:17:45 MySQLServer org.gnome.Shell.desktop[2043]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Sep 17 11:17:45 MySQLServer org.gnome.Shell.desktop[2043]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 17 11:17:45 MySQLServer org.gnome.Shell.desktop[2043]: >                   X11 cannot support keycodes above 255.
+Sep 17 11:17:45 MySQLServer org.gnome.Shell.desktop[2043]: Errors from xkbcomp are not fatal to the X server
+Sep 17 11:17:45 MySQLServer gsd-color[1817]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Sep 17 11:17:45 MySQLServer gnome-shell[1543]: Registering session with GDM
+Sep 17 11:17:45 MySQLServer systemd[1]: Received SIGRTMIN+21 from PID 395 (plymouthd).
+Sep 17 11:17:45 MySQLServer systemd[1]: Finished Hold until boot process finishes up.
+Sep 17 11:17:45 MySQLServer systemd[1]: Reached target Multi-User System.
+Sep 17 11:17:45 MySQLServer systemd[1]: Reached target Graphical Interface.
+Sep 17 11:17:45 MySQLServer systemd[1]: Starting Record Runlevel Change in UTMP...
+Sep 17 11:17:45 MySQLServer /usr/libexec/gdm-wayland-session[1467]: dbus-daemon[1467]: [session uid=42 pid=1467] Successfully activated service 'org.gnome.Shell.Screencast'
+Sep 17 11:17:45 MySQLServer systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+Sep 17 11:17:45 MySQLServer systemd[1]: Finished Record Runlevel Change in UTMP.
+Sep 17 11:17:45 MySQLServer systemd[1]: Startup finished in 1.233s (kernel) + 1.714s (initrd) + 5.725s (userspace) = 8.672s.
+Sep 17 11:17:47 MySQLServer chronyd[823]: Selected source 162.159.200.1 (2.centos.pool.ntp.org)
+Sep 17 11:17:48 MySQLServer chronyd[823]: System clock wrong by 1.633843 seconds
+Sep 17 11:17:48 MySQLServer chronyd[823]: System clock was stepped by 1.633843 seconds
+Sep 17 11:17:48 MySQLServer chronyd[823]: System clock TAI offset set to 37 seconds
+Sep 17 11:17:54 MySQLServer systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Sep 17 11:18:06 MySQLServer systemd[1]: Created slice User Slice of UID 1000.
+Sep 17 11:18:06 MySQLServer systemd[1]: Starting User Runtime Directory /run/user/1000...
+Sep 17 11:18:06 MySQLServer systemd-logind[804]: New session 2 of user mysqluser.
+Sep 17 11:18:06 MySQLServer systemd[1]: Finished User Runtime Directory /run/user/1000.
+Sep 17 11:18:06 MySQLServer systemd[1]: Starting User Manager for UID 1000...
+Sep 17 11:18:06 MySQLServer systemd[2090]: Queued start job for default target Main User Target.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Created slice User Application Slice.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Started Mark boot as successful after the user session has run 2 minutes.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Started Daily Cleanup of User's Temporary Directories.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Reached target Paths.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Reached target Timers.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Starting D-Bus User Message Bus Socket...
+Sep 17 11:18:06 MySQLServer systemd[2090]: Listening on PipeWire PulseAudio.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Listening on PipeWire Multimedia System Socket.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Starting Create User's Volatile Files and Directories...
+Sep 17 11:18:06 MySQLServer systemd[2090]: Listening on D-Bus User Message Bus Socket.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Reached target Sockets.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Finished Create User's Volatile Files and Directories.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Reached target Basic System.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Reached target Main User Target.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Startup finished in 167ms.
+Sep 17 11:18:06 MySQLServer systemd[1]: Started User Manager for UID 1000.
+Sep 17 11:18:06 MySQLServer systemd[1]: Started Session 2 of User mysqluser.
+Sep 17 11:18:06 MySQLServer gsd-media-keys[1842]: Unable to get default source
+Sep 17 11:18:06 MySQLServer gsd-media-keys[1842]: Unable to get default sink
+Sep 17 11:18:06 MySQLServer systemd[2090]: Starting D-Bus User Message Bus...
+Sep 17 11:18:06 MySQLServer dbus-broker-launch[2132]: Policy to allow eavesdropping in /usr/share/dbus-1/session.conf +31: Eavesdropping is deprecated and ignored
+Sep 17 11:18:06 MySQLServer dbus-broker-launch[2132]: Policy to allow eavesdropping in /usr/share/dbus-1/session.conf +33: Eavesdropping is deprecated and ignored
+Sep 17 11:18:06 MySQLServer systemd[2090]: Started D-Bus User Message Bus.
+Sep 17 11:18:06 MySQLServer dbus-broker-lau[2132]: Ready
+Sep 17 11:18:06 MySQLServer systemd[2090]: Created slice Slice /app/gnome-session-manager.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Created slice User Core Session Slice.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Reached target GNOME Wayland Session.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Reached target GNOME Shell.
+Sep 17 11:18:06 MySQLServer systemd[2090]: GNOME Initial Setup Copy Worker was skipped because of an unmet condition check (ConditionPathExists=!/home/mysqluser/.config/gnome-initial-setup-done).
+Sep 17 11:18:06 MySQLServer systemd[2090]: Reached target Session services which should run early before the graphical session is brought up.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Starting Monitor Session leader for GNOME Session...
+Sep 17 11:18:06 MySQLServer systemd[2090]: Started Monitor Session leader for GNOME Session.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Reached target Tasks to be run before GNOME Session starts.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Starting GNOME Session Manager (session: gnome)...
+Sep 17 11:18:06 MySQLServer systemd[2090]: Started Application launched by gnome-session-binary.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Started Application launched by gnome-session-binary.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Started Application launched by gnome-session-binary.
+Sep 17 11:18:06 MySQLServer gnome-keyring-ssh.desktop[2189]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Sep 17 11:18:06 MySQLServer systemd[2090]: Started GNOME Session Manager (session: gnome).
+Sep 17 11:18:06 MySQLServer systemd[2090]: Reached target GNOME Session Manager is ready.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Starting GNOME Shell on Wayland...
+Sep 17 11:18:06 MySQLServer systemd[2090]: Starting GNOME Shell on X11...
+Sep 17 11:18:06 MySQLServer systemd[2090]: org.gnome.Shell@x11.service: Skipped due to 'exec-condition'.
+Sep 17 11:18:06 MySQLServer systemd[2090]: Condition check resulted in GNOME Shell on X11 being skipped.
+Sep 17 11:18:06 MySQLServer gnome-session[2177]: gnome-session-binary[2177]: GnomeDesktop-WARNING: Could not create transient scope for PID 2190: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2190 does not exist.
+Sep 17 11:18:06 MySQLServer gnome-session-binary[2177]: GnomeDesktop-WARNING: Could not create transient scope for PID 2190: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2190 does not exist.
+Sep 17 11:18:06 MySQLServer gnome-shell[2193]: Adding device '/dev/dri/card0' (vmwgfx) using non-atomic mode setting (using atomic mode setting not allowed).
+Sep 17 11:18:06 MySQLServer gnome-shell[2193]: VMware: No 3D enabled (0, Conseguido).
+Sep 17 11:18:06 MySQLServer gnome-shell[2193]: VMware: No 3D enabled (0, Conseguido).
+Sep 17 11:18:06 MySQLServer gnome-shell[2193]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Do not want to use software renderer (llvmpipe (LLVM 16.0.6, 256 bits)), falling back to CPU copy path
+Sep 17 11:18:06 MySQLServer gnome-shell[2193]: VMware: No 3D enabled (0, Conseguido).
+Sep 17 11:18:06 MySQLServer gnome-shell[2193]: libEGL warning: egl: failed to create dri2 screen
+Sep 17 11:18:06 MySQLServer gnome-shell[2193]: VMware: No 3D enabled (0, Conseguido).
+Sep 17 11:18:06 MySQLServer gnome-shell[2193]: libEGL warning: egl: failed to create dri2 screen
+Sep 17 11:18:06 MySQLServer gnome-shell[2193]: Created gbm renderer for '/dev/dri/card0'
+Sep 17 11:18:06 MySQLServer gnome-shell[2193]: Boot VGA GPU /dev/dri/card0 selected as primary
+Sep 17 11:18:06 MySQLServer systemd[2090]: Starting Virtual filesystem service...
+Sep 17 11:18:06 MySQLServer systemd[2090]: Started Virtual filesystem service.
+Sep 17 11:18:06 MySQLServer gnome-shell[2193]: Disabling DMA buffer screen sharing for driver 'vmwgfx'.
+Sep 17 11:18:06 MySQLServer gnome-shell[2193]: Using public X11 display :0, (using :1 for managed services)
+Sep 17 11:18:06 MySQLServer gnome-shell[2193]: Using Wayland display name 'wayland-0'
+Sep 17 11:18:06 MySQLServer systemd[2090]: Starting Accessibility services bus...
+Sep 17 11:18:06 MySQLServer systemd[2090]: Started Accessibility services bus.
+Sep 17 11:18:06 MySQLServer at-spi-bus-launcher[2258]: Policy to allow eavesdropping in /usr/share/defaults/at-spi2/accessibility.conf +15: Eavesdropping is deprecated and ignored
+Sep 17 11:18:06 MySQLServer at-spi-bus-launcher[2258]: Policy to allow eavesdropping in /usr/share/defaults/at-spi2/accessibility.conf +17: Eavesdropping is deprecated and ignored
+Sep 17 11:18:06 MySQLServer dbus-broker-lau[2258]: Ready
+Sep 17 11:18:07 MySQLServer gnome-shell[2193]: Skipping parental controls support as it’s disabled
+Sep 17 11:18:07 MySQLServer gnome-shell[2193]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+Sep 17 11:18:07 MySQLServer gnome-shell[2193]: Will monitor session 2
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting sandboxed app permission store...
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started sandboxed app permission store.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Created slice Slice /app/dbus-:1.2-org.gnome.Shell.CalendarServer.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started dbus-:1.2-org.gnome.Shell.CalendarServer@0.service.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Created slice Slice /app/dbus-:1.2-org.freedesktop.portal.IBus.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started dbus-:1.2-org.freedesktop.portal.IBus@0.service.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting Evolution source registry...
+Sep 17 11:18:07 MySQLServer systemd[2090]: Created slice Slice /app/dbus-:1.2-org.gnome.OnlineAccounts.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started dbus-:1.2-org.gnome.OnlineAccounts@0.service.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started PipeWire Multimedia Service.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started Multimedia Service Session Manager.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started PipeWire PulseAudio.
+Sep 17 11:18:07 MySQLServer pipewire[2299]: mod.rt: Can't find org.freedesktop.portal.Desktop. Is xdg-desktop-portal running?
+Sep 17 11:18:07 MySQLServer pipewire[2299]: mod.rt: found session bus but no portal
+Sep 17 11:18:07 MySQLServer pipewire-pulse[2301]: mod.rt: Can't find org.freedesktop.portal.Desktop. Is xdg-desktop-portal running?
+Sep 17 11:18:07 MySQLServer pipewire-pulse[2301]: mod.rt: found session bus but no portal
+Sep 17 11:18:07 MySQLServer wireplumber[2300]: Can't find org.freedesktop.portal.Desktop. Is xdg-desktop-portal running?
+Sep 17 11:18:07 MySQLServer wireplumber[2300]: found session bus but no portal
+Sep 17 11:18:07 MySQLServer gnome-shell[2193]: g_strsplit: assertion 'string != NULL' failed
+Sep 17 11:18:07 MySQLServer rtkit-daemon[800]: Successfully made thread 2299 of process 2299 (/usr/bin/pipewire) owned by '1000' high priority at nice level -11.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started Evolution source registry.
+Sep 17 11:18:07 MySQLServer rtkit-daemon[800]: Successfully made thread 2301 of process 2301 (/usr/bin/pipewire-pulse) owned by '1000' high priority at nice level -11.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting Evolution calendar service...
+Sep 17 11:18:07 MySQLServer goa-daemon[2298]: goa-daemon version 3.40.0 starting
+Sep 17 11:18:07 MySQLServer rtkit-daemon[800]: Successfully made thread 2300 of process 2300 (/usr/bin/wireplumber) owned by '1000' high priority at nice level -11.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Created slice Slice /app/dbus-:1.2-org.gnome.Identity.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started dbus-:1.2-org.gnome.Identity@0.service.
+Sep 17 11:18:07 MySQLServer gnome-shell[2193]: Telepathy is not available, chat integration will be disabled.
+Sep 17 11:18:07 MySQLServer systemd[1]: Starting SSSD Kerberos Cache Manager...
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting Virtual filesystem service - disk device monitor...
+Sep 17 11:18:07 MySQLServer rtkit-daemon[800]: Successfully made thread 2324 of process 2300 (/usr/bin/wireplumber) owned by '1000' RT at priority 20.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started Evolution calendar service.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting User preferences database...
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started Virtual filesystem service - disk device monitor.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started User preferences database.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting Evolution address book service...
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Sep 17 11:18:07 MySQLServer rtkit-daemon[800]: Successfully made thread 2326 of process 2299 (/usr/bin/pipewire) owned by '1000' RT at priority 20.
+Sep 17 11:18:07 MySQLServer wireplumber[2300]: Failed to set scheduler settings: Operación no permitida
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Sep 17 11:18:07 MySQLServer rtkit-daemon[800]: Successfully made thread 2327 of process 2301 (/usr/bin/pipewire-pulse) owned by '1000' RT at priority 20.
+Sep 17 11:18:07 MySQLServer wireplumber[2300]: SPA handle 'api.libcamera.enum.manager' could not be loaded; is it installed?
+Sep 17 11:18:07 MySQLServer wireplumber[2300]: PipeWire's libcamera SPA missing or broken. libcamera not supported.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting Virtual filesystem service - digital camera monitor...
+Sep 17 11:18:07 MySQLServer systemd[1]: Started SSSD Kerberos Cache Manager.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started Virtual filesystem service - digital camera monitor.
+Sep 17 11:18:07 MySQLServer sssd_kcm[2376]: Starting up
+Sep 17 11:18:07 MySQLServer goa-identity-se[2328]: GoaKerberosIdentityManager: Using polling for change notification for credential cache type 'KCM'
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Sep 17 11:18:07 MySQLServer wireplumber[2300]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Sep 17 11:18:07 MySQLServer wireplumber[2300]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Sep 17 11:18:07 MySQLServer wireplumber[2300]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Sep 17 11:18:07 MySQLServer wireplumber[2300]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Sep 17 11:18:07 MySQLServer wireplumber[2300]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Sep 17 11:18:07 MySQLServer wireplumber[2300]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Sep 17 11:18:07 MySQLServer wireplumber[2300]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Sep 17 11:18:07 MySQLServer wireplumber[2300]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Sep 17 11:18:07 MySQLServer wireplumber[2300]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Sep 17 11:18:07 MySQLServer wireplumber[2300]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Sep 17 11:18:07 MySQLServer wireplumber[2300]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NameHasNoOwner
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started Evolution address book service.
+Sep 17 11:18:07 MySQLServer wireplumber[2300]: <WpSiAudioAdapter:0x557c6cf65040> Object activation aborted: proxy destroyed
+Sep 17 11:18:07 MySQLServer wireplumber[2300]: <WpSiAudioAdapter:0x557c6cf65040> failed to activate item: Object activation aborted: proxy destroyed
+Sep 17 11:18:07 MySQLServer systemd[2090]: Created slice Slice /app/dbus-:1.21-org.a11y.atspi.Registry.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Created slice Slice /app/dbus-:1.2-org.gnome.Shell.Notifications.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started dbus-:1.2-org.gnome.Shell.Notifications@0.service.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started dbus-:1.21-org.a11y.atspi.Registry@0.service.
+Sep 17 11:18:07 MySQLServer at-spi2-registryd[2397]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started GNOME Shell on Wayland.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Reached target GNOME Session is initialized.
+Sep 17 11:18:07 MySQLServer systemd[2090]: GNOME session X11 services is inactive.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Dependency failed for GNOME XSettings service.
+Sep 17 11:18:07 MySQLServer systemd[2090]: org.gnome.SettingsDaemon.XSettings.service: Job org.gnome.SettingsDaemon.XSettings.service/start failed with result 'dependency'.
+Sep 17 11:18:07 MySQLServer systemd[2090]: gnome-session-x11-services-ready.target: Job gnome-session-x11-services-ready.target/verify-active failed with result 'dependency'.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Reached target GNOME Session (session: gnome).
+Sep 17 11:18:07 MySQLServer systemd[2090]: Reached target GNOME XSettings target.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting Signal initialization done to GNOME Session Manager...
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting GNOME accessibility service...
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting GNOME color management service...
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting GNOME date & time service...
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting GNOME maintenance of expirable data service...
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting GNOME keyboard configuration service...
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting GNOME keyboard shortcuts service...
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting GNOME power management service...
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting GNOME printer notifications service...
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting GNOME RFKill support service...
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting GNOME FreeDesktop screensaver service...
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting GNOME file sharing service...
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting GNOME smartcard service...
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting GNOME sound sample caching service...
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting GNOME USB protection service...
+Sep 17 11:18:07 MySQLServer systemd[2090]: Starting GNOME Wacom tablet support service...
+Sep 17 11:18:07 MySQLServer systemd[2090]: Finished Signal initialization done to GNOME Session Manager.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started GNOME accessibility service.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started GNOME maintenance of expirable data service.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Started GNOME FreeDesktop screensaver service.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Reached target GNOME accessibility target.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Reached target GNOME maintenance of expirable data target.
+Sep 17 11:18:07 MySQLServer systemd[2090]: Reached target GNOME FreeDesktop screensaver target.
+Sep 17 11:18:08 MySQLServer vmware-user.desktop[2491]: vmware-user: could not open /proc/fs/vmblock/dev
+Sep 17 11:18:08 MySQLServer gnome-session-binary[2177]: Entering running state
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2485]: 09:18:08.055663 main     VBoxClient 7.0.10 r158379 (verbosity: 0) linux.amd64 (Jul 12 2023 20:36:17) release log
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2485]: 09:18:08.055665 main     Log opened 2023-09-17T09:18:08.055658000Z
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2485]: 09:18:08.055700 main     OS Product: Linux
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2485]: 09:18:08.055705 main     OS Release: 5.14.0-364.el9.x86_64
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2485]: 09:18:08.055708 main     OS Version: #1 SMP PREEMPT_DYNAMIC Fri Sep 8 19:51:25 UTC 2023
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2485]: 09:18:08.055711 main     Executable: /opt/VBoxGuestAdditions-7.0.10/bin/VBoxClient
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2485]: 09:18:08.055712 main     Process ID: 2485
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2485]: 09:18:08.055712 main     Package type: LINUX_64BITS_GENERIC
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2485]: 09:18:08.055717 main      VBoxClient 7.0.10 r158379 started. Verbose level = 0. Wayland environment detected: yes
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2485]: 09:18:08.055721 main      Service: Shared Clipboard
+Sep 17 11:18:08 MySQLServer gnome-session[2177]: gnome-session-binary[2177]: GnomeDesktop-WARNING: Could not create transient scope for PID 2435: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2435 does not exist.
+Sep 17 11:18:08 MySQLServer gnome-session-binary[2177]: GnomeDesktop-WARNING: Could not create transient scope for PID 2435: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2435 does not exist.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started GNOME file sharing service.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started GNOME USB protection service.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started GNOME RFKill support service.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Reached target GNOME RFKill support target.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Reached target GNOME file sharing target.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Reached target GNOME USB protection target.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started GNOME sound sample caching service.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Reached target GNOME sound sample caching target.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started GNOME date & time service.
+Sep 17 11:18:08 MySQLServer gnome-session[2177]: gnome-session-binary[2177]: GnomeDesktop-WARNING: Could not create transient scope for PID 2461: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2461 does not exist.
+Sep 17 11:18:08 MySQLServer gnome-session[2177]: gnome-session-binary[2177]: GnomeDesktop-WARNING: Could not create transient scope for PID 2469: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2469 does not exist.
+Sep 17 11:18:08 MySQLServer gnome-session-binary[2177]: GnomeDesktop-WARNING: Could not create transient scope for PID 2461: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2461 does not exist.
+Sep 17 11:18:08 MySQLServer gnome-session-binary[2177]: GnomeDesktop-WARNING: Could not create transient scope for PID 2469: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2469 does not exist.
+Sep 17 11:18:08 MySQLServer gnome-session[2177]: gnome-session-binary[2177]: GnomeDesktop-WARNING: Could not create transient scope for PID 2489: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2489 does not exist.
+Sep 17 11:18:08 MySQLServer gnome-session-binary[2177]: GnomeDesktop-WARNING: Could not create transient scope for PID 2489: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 2489 does not exist.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started GNOME smartcard service.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started Application launched by gnome-session-binary.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started Application launched by gnome-session-binary.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started Application launched by gnome-session-binary.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started Application launched by gnome-session-binary.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started Application launched by gnome-session-binary.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started Application launched by gnome-session-binary.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started Application launched by gnome-session-binary.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Created slice Slice /app/dbus-:1.2-org.gnome.ScreenSaver.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Reached target GNOME date & time target.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Reached target GNOME smartcard target.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started dbus-:1.2-org.gnome.ScreenSaver@0.service.
+Sep 17 11:18:08 MySQLServer systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 2494 (snap)
+Sep 17 11:18:08 MySQLServer systemd[1]: Mounting Arbitrary Executable File Formats File System...
+Sep 17 11:18:08 MySQLServer gnome-shell[2193]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep 17 11:18:08 MySQLServer systemd[1]: Mounted Arbitrary Executable File Formats File System.
+Sep 17 11:18:08 MySQLServer gnome-shell[2548]: VMware: No 3D enabled (0, Success).
+Sep 17 11:18:08 MySQLServer gnome-shell[2548]: libEGL warning: egl: failed to create dri2 screen
+Sep 17 11:18:08 MySQLServer gnome-shell[2548]: VMware: No 3D enabled (0, Success).
+Sep 17 11:18:08 MySQLServer gnome-shell[2548]: libEGL warning: egl: failed to create dri2 screen
+Sep 17 11:18:08 MySQLServer gsd-usb-protect[2451]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+Sep 17 11:18:08 MySQLServer gnome-shell[2548]: Failed to initialize glamor, falling back to sw
+Sep 17 11:18:08 MySQLServer cupsd[1150]: REQUEST localhost - - "POST / HTTP/1.1" 200 365 Create-Printer-Subscriptions successful-ok
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started GNOME printer notifications service.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Reached target GNOME printer notifications target.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started GNOME color management service.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Reached target GNOME color management target.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Reached target GNOME session X11 services.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Starting GNOME XSettings service...
+Sep 17 11:18:08 MySQLServer gnome-shell[2612]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+Sep 17 11:18:08 MySQLServer gnome-shell[2612]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 17 11:18:08 MySQLServer gnome-shell[2612]: >                   X11 cannot support keycodes above 255.
+Sep 17 11:18:08 MySQLServer gnome-shell[2612]: Errors from xkbcomp are not fatal to the X server
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started GNOME keyboard configuration service.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Reached target GNOME keyboard configuration target.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started GNOME keyboard shortcuts service.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Reached target GNOME keyboard shortcuts target.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started GNOME power management service.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Reached target GNOME power management target.
+Sep 17 11:18:08 MySQLServer gsd-color[2415]: failed to get edid: unable to get EDID for output
+Sep 17 11:18:08 MySQLServer systemd[2090]: Created slice Slice /app/dbus-:1.2-org.gnome.Shell.Screencast.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started dbus-:1.2-org.gnome.Shell.Screencast@0.service.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started GNOME Wacom tablet support service.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Reached target GNOME Wacom tablet support target.
+Sep 17 11:18:08 MySQLServer ibus-daemon[2265]: GChildWatchSource: Exit status of a child process was requested but ECHILD was received by waitpid(). See the documentation of g_child_watch_source_new() for possible causes.
+Sep 17 11:18:08 MySQLServer gsd-media-keys[2419]: Failed to grab accelerator for keybinding settings:hibernate
+Sep 17 11:18:08 MySQLServer gsd-media-keys[2419]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started dbus-:1.2-org.freedesktop.portal.IBus@1.service.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Started GNOME XSettings service.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Reached target GNOME session X11 services.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Reached target GNOME Session.
+Sep 17 11:18:08 MySQLServer systemd[2090]: Reached target GNOME Wayland Session (session: gnome).
+Sep 17 11:18:08 MySQLServer systemd[2090]: Reached target Current graphical user session.
+Sep 17 11:18:08 MySQLServer systemd[2090]: GNOME Initial Setup was skipped because of an unmet condition check (ConditionPathExists=!/home/mysqluser/.config/gnome-initial-setup-done).
+Sep 17 11:18:08 MySQLServer gnome-shell[2193]: ATK Bridge is disabled but a11y has already been enabled.
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2722]: 09:18:08.749944 main     VBoxClient 7.0.10 r158379 (verbosity: 0) linux.amd64 (Jul 12 2023 20:36:17) release log
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2722]: 09:18:08.749946 main     Log opened 2023-09-17T09:18:08.749940000Z
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2722]: 09:18:08.749973 main     OS Product: Linux
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2722]: 09:18:08.749982 main     OS Release: 5.14.0-364.el9.x86_64
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2722]: 09:18:08.749986 main     OS Version: #1 SMP PREEMPT_DYNAMIC Fri Sep 8 19:51:25 UTC 2023
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2722]: 09:18:08.749988 main     Executable: /opt/VBoxGuestAdditions-7.0.10/bin/VBoxClient
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2722]: 09:18:08.749989 main     Process ID: 2722
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2722]: 09:18:08.749989 main     Package type: LINUX_64BITS_GENERIC
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2722]: 09:18:08.749994 main      VBoxClient 7.0.10 r158379 started. Verbose level = 0. Wayland environment detected: yes
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2722]: 09:18:08.749996 main      Service: VirtualBox host version check
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2729]: 09:18:08.755037 main     VBoxClient 7.0.10 r158379 (verbosity: 0) linux.amd64 (Jul 12 2023 20:36:17) release log
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2729]: 09:18:08.755039 main     Log opened 2023-09-17T09:18:08.755033000Z
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2729]: 09:18:08.755120 main     OS Product: Linux
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2729]: 09:18:08.755124 main     OS Release: 5.14.0-364.el9.x86_64
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2729]: 09:18:08.755128 main     OS Version: #1 SMP PREEMPT_DYNAMIC Fri Sep 8 19:51:25 UTC 2023
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2729]: 09:18:08.755130 main     Executable: /opt/VBoxGuestAdditions-7.0.10/bin/VBoxClient
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2729]: 09:18:08.755131 main     Process ID: 2729
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2729]: 09:18:08.755131 main     Package type: LINUX_64BITS_GENERIC
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2729]: 09:18:08.755136 main      VBoxClient 7.0.10 r158379 started. Verbose level = 0. Wayland environment detected: yes
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2729]: 09:18:08.755139 main      Service: Seamless Mode Support
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2732]: 09:18:08.758356 main     VBoxClient 7.0.10 r158379 (verbosity: 0) linux.amd64 (Jul 12 2023 20:36:17) release log
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2732]: 09:18:08.758358 main     Log opened 2023-09-17T09:18:08.758352000Z
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2732]: 09:18:08.758684 main     OS Product: Linux
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2732]: 09:18:08.758728 main     OS Release: 5.14.0-364.el9.x86_64
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2732]: 09:18:08.758761 main     OS Version: #1 SMP PREEMPT_DYNAMIC Fri Sep 8 19:51:25 UTC 2023
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2732]: 09:18:08.758802 main     Executable: /opt/VBoxGuestAdditions-7.0.10/bin/VBoxClient
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2732]: 09:18:08.758803 main     Process ID: 2732
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2732]: 09:18:08.758803 main     Package type: LINUX_64BITS_GENERIC
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2732]: 09:18:08.758877 main      VBoxClient 7.0.10 r158379 started. Verbose level = 0. Wayland environment detected: yes
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2732]: 09:18:08.758918 main      Service: Drag'n'Drop
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2743]: 09:18:08.763274 main     VBoxClient 7.0.10 r158379 (verbosity: 0) linux.amd64 (Jul 12 2023 20:36:17) release log
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2743]: 09:18:08.763277 main     Log opened 2023-09-17T09:18:08.763270000Z
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2743]: 09:18:08.763307 main     OS Product: Linux
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2743]: 09:18:08.763310 main     OS Release: 5.14.0-364.el9.x86_64
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2743]: 09:18:08.763313 main     OS Version: #1 SMP PREEMPT_DYNAMIC Fri Sep 8 19:51:25 UTC 2023
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2743]: 09:18:08.763321 main     Executable: /opt/VBoxGuestAdditions-7.0.10/bin/VBoxClient
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2743]: 09:18:08.763321 main     Process ID: 2743
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2743]: 09:18:08.763322 main     Package type: LINUX_64BITS_GENERIC
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2743]: 09:18:08.763326 main      VBoxClient 7.0.10 r158379 started. Verbose level = 0. Wayland environment detected: yes
+Sep 17 11:18:08 MySQLServer vboxclient.desktop[2743]: 09:18:08.763450 main      Service: VMSVGA display assistant
+Sep 17 11:18:08 MySQLServer NetworkManager[1128]: <info>  [1694942288.7886] agent-manager: agent[36426c8a34620f0f,:1.68/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Sep 17 11:18:08 MySQLServer gsd-color[2415]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Sep 17 11:18:08 MySQLServer gsd-color[1817]: unable to get EDID for xrandr-Virtual-1: unable to get EDID for output
+Sep 17 11:18:08 MySQLServer systemd[1]: Starting Firmware update daemon...
+Sep 17 11:18:09 MySQLServer gnome-shell[2193]: GNOME Shell started at Sun Sep 17 2023 11:18:07 GMT+0200 (hora de verano de Europa central)
+Sep 17 11:18:09 MySQLServer gnome-shell[2193]: Registering session with GDM
+Sep 17 11:18:09 MySQLServer cupsd[1150]: REQUEST localhost - - "POST / HTTP/1.1" 200 151 Cancel-Subscription successful-ok
+Sep 17 11:18:09 MySQLServer gdm-wayland-session[1440]: GLib: Source ID 2 was not found when attempting to remove it
+Sep 17 11:18:09 MySQLServer ibus-daemon[1967]: GChildWatchSource: Exit status of a child process was requested but ECHILD was received by waitpid(). See the documentation of g_child_watch_source_new() for possible causes.
+Sep 17 11:18:09 MySQLServer gdm-launch-environment][1261]: GLib-GObject: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Sep 17 11:18:09 MySQLServer systemd-logind[804]: Session c1 logged out. Waiting for processes to exit.
+Sep 17 11:18:09 MySQLServer /usr/libexec/gdm-wayland-session[1467]: dbus-daemon[1467]: [session uid=42 pid=1467] Activating service name='org.freedesktop.systemd1' requested by ':1.12' (uid=42 pid=1812 comm="/usr/libexec/gsd-sharing " label="system_u:system_r:xdm_t:s0-s0:c0.c1023")
+Sep 17 11:18:09 MySQLServer systemd[1]: session-c1.scope: Deactivated successfully.
+Sep 17 11:18:09 MySQLServer systemd[1]: session-c1.scope: Consumed 3.592s CPU time.
+Sep 17 11:18:09 MySQLServer systemd-logind[804]: Removed session c1.
+Sep 17 11:18:09 MySQLServer gdm[1224]: Gdm: Child process -1440 was already dead.
+Sep 17 11:18:09 MySQLServer systemd[1]: Started Firmware update daemon.
+Sep 17 11:18:09 MySQLServer gnome-software[2503]: enabled plugins: appstream, fwupd, os-release, packagekit-refresh, flatpak, hardcoded-blocklist, hardcoded-popular, modalias, packagekit, rewrite-resource, provenance, systemd-updates, generic-updates, packagekit-refine-repos, provenance-license, icons
+Sep 17 11:18:09 MySQLServer gnome-software[2503]: disabled plugins: dummy, fedora-langpacks, fedora-pkgdb-collections, repos
+Sep 17 11:18:09 MySQLServer PackageKit[1781]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Sep 17 11:18:09 MySQLServer PackageKit[1781]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Sep 17 11:18:09 MySQLServer gnome-software[2503]: Only 0 apps for recent list, hiding
+Sep 17 11:18:09 MySQLServer gnome-software[2503]: failed to get featured apps: no apps to show
+Sep 17 11:18:10 MySQLServer gnome-software[2503]: Only 3 apps for popular list, hiding
+Sep 17 11:18:11 MySQLServer systemd[2090]: Started Application launched by gnome-shell.
+Sep 17 11:18:12 MySQLServer systemd[2090]: Created slice Slice /app/org.gnome.Terminal.
+Sep 17 11:18:12 MySQLServer systemd[2090]: Starting GNOME Terminal Server...
+Sep 17 11:18:12 MySQLServer systemd[2090]: Started GNOME Terminal Server.
+Sep 17 11:18:12 MySQLServer systemd[2090]: Started VTE child process 2892 launched by gnome-terminal-server process 2874.
+Sep 17 11:18:16 MySQLServer systemd[1]: fprintd.service: Deactivated successfully.
+Sep 17 11:18:19 MySQLServer systemd[1]: Stopping User Manager for UID 42...
+Sep 17 11:18:19 MySQLServer systemd[1294]: Activating special unit Exit the Session...
+Sep 17 11:18:19 MySQLServer systemd[1294]: Stopped target Main User Target.
+Sep 17 11:18:19 MySQLServer systemd[1294]: Stopping PipeWire PulseAudio...
+Sep 17 11:18:19 MySQLServer systemd[1294]: Stopped PipeWire PulseAudio.
+Sep 17 11:18:19 MySQLServer systemd[1294]: Stopping Multimedia Service Session Manager...
+Sep 17 11:18:19 MySQLServer wireplumber[1760]: stopped by signal: Terminado
+Sep 17 11:18:19 MySQLServer wireplumber[1760]: disconnected from pipewire
+Sep 17 11:18:19 MySQLServer systemd[1294]: Stopped Multimedia Service Session Manager.
+Sep 17 11:18:19 MySQLServer systemd[1294]: Stopping PipeWire Multimedia Service...
+Sep 17 11:18:19 MySQLServer systemd[1294]: Stopped PipeWire Multimedia Service.
+Sep 17 11:18:19 MySQLServer systemd[1294]: Removed slice User Core Session Slice.
+Sep 17 11:18:19 MySQLServer systemd[1294]: Stopped target Basic System.
+Sep 17 11:18:19 MySQLServer systemd[1294]: Stopped target Paths.
+Sep 17 11:18:19 MySQLServer systemd[1294]: Stopped target Sockets.
+Sep 17 11:18:19 MySQLServer systemd[1294]: Stopped target Timers.
+Sep 17 11:18:19 MySQLServer systemd[1294]: Stopped Daily Cleanup of User's Temporary Directories.
+Sep 17 11:18:19 MySQLServer systemd[1294]: Closed PipeWire PulseAudio.
+Sep 17 11:18:19 MySQLServer systemd[1294]: Closed PipeWire Multimedia System Socket.
+Sep 17 11:18:19 MySQLServer dbus-broker[1464]: Dispatched 227 messages @ 7(±41)μs / message.
+Sep 17 11:18:19 MySQLServer systemd[1294]: Stopping D-Bus User Message Bus...
+Sep 17 11:18:19 MySQLServer systemd[1294]: Stopped Create User's Volatile Files and Directories.
+Sep 17 11:18:19 MySQLServer systemd[1294]: Stopped D-Bus User Message Bus.
+Sep 17 11:18:19 MySQLServer systemd[1294]: Closed D-Bus User Message Bus Socket.
+Sep 17 11:18:19 MySQLServer systemd[1294]: Removed slice User Application Slice.
+Sep 17 11:18:19 MySQLServer systemd[1294]: Reached target Shutdown.
+Sep 17 11:18:19 MySQLServer systemd[1294]: Finished Exit the Session.
+Sep 17 11:18:19 MySQLServer systemd[1294]: Reached target Exit the Session.
+Sep 17 11:18:19 MySQLServer systemd[1]: user@42.service: Deactivated successfully.
+Sep 17 11:18:19 MySQLServer systemd[1]: Stopped User Manager for UID 42.
+Sep 17 11:18:19 MySQLServer systemd[1]: Stopping User Runtime Directory /run/user/42...
+Sep 17 11:18:19 MySQLServer systemd[1]: run-user-42.mount: Deactivated successfully.
+Sep 17 11:18:19 MySQLServer systemd[1]: user-runtime-dir@42.service: Deactivated successfully.
+Sep 17 11:18:19 MySQLServer systemd[1]: Stopped User Runtime Directory /run/user/42.
+Sep 17 11:18:19 MySQLServer systemd[1]: Removed slice User Slice of UID 42.
+Sep 17 11:18:19 MySQLServer systemd[1]: user-42.slice: Consumed 4.054s CPU time.
+Sep 17 11:18:38 MySQLServer systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Sep 17 11:18:38 MySQLServer systemd[1]: systemd-localed.service: Deactivated successfully.
+Sep 17 11:18:46 MySQLServer geoclue[1765]: Service not used for 60 seconds. Shutting down..
+Sep 17 11:18:46 MySQLServer systemd[1]: geoclue.service: Deactivated successfully.
+Sep 17 11:18:47 MySQLServer systemd[1]: realmd.service: Deactivated successfully.
+Sep 17 11:18:51 MySQLServer systemd[1]: Starting Fingerprint Authentication Daemon...
+Sep 17 11:18:51 MySQLServer systemd[1]: Started Fingerprint Authentication Daemon.
+Sep 17 11:19:07 MySQLServer systemd[2090]: Starting Virtual filesystem metadata service...
+Sep 17 11:19:07 MySQLServer systemd[2090]: Started Virtual filesystem metadata service.
+Sep 17 11:19:09 MySQLServer PackageKit[1781]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Sep 17 11:19:09 MySQLServer PackageKit[1781]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Sep 17 11:19:21 MySQLServer systemd[1]: fprintd.service: Deactivated successfully.
+Sep 17 11:20:16 MySQLServer systemd[2090]: Starting Mark boot as successful...
+Sep 17 11:20:16 MySQLServer systemd[2090]: Finished Mark boot as successful.
+Sep 17 11:20:56 MySQLServer systemd[2090]: Created slice Slice /app/dbus-:1.2-org.gnome.Nautilus.
+Sep 17 11:20:56 MySQLServer systemd[2090]: Started dbus-:1.2-org.gnome.Nautilus@0.service.
+Sep 17 11:20:56 MySQLServer systemd[1]: Starting Hostname Service...
+Sep 17 11:20:56 MySQLServer systemd[1]: Started Hostname Service.
+Sep 17 11:21:26 MySQLServer systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Sep 17 11:21:40 MySQLServer systemd[1]: Starting Fingerprint Authentication Daemon...
+Sep 17 11:21:40 MySQLServer systemd[1]: Started Fingerprint Authentication Daemon.
+Sep 17 11:21:47 MySQLServer kernel: capability: warning: `gvfsd-admin' uses 32-bit capabilities (legacy support in use)
+Sep 17 11:21:56 MySQLServer gnome-shell[3299]: polkit-agent-helper-1: pam_authenticate failed: Authentication failure
+Sep 17 11:22:10 MySQLServer systemd[1]: fprintd.service: Deactivated successfully.
+Sep 17 11:22:53 MySQLServer systemd[1]: Starting Hostname Service...
+Sep 17 11:22:53 MySQLServer systemd[1]: Started Hostname Service.
+Sep 17 11:23:08 MySQLServer nautilus[3177]: Connecting to org.freedesktop.Tracker3.Miner.Files
+Sep 17 11:23:08 MySQLServer systemd[2090]: Created slice User Background Tasks Slice.
+Sep 17 11:23:08 MySQLServer systemd[2090]: Starting Cleanup of User's Temporary Files and Directories...
+Sep 17 11:23:08 MySQLServer systemd[2090]: Starting Tracker file system data miner...
+Sep 17 11:23:08 MySQLServer systemd[2090]: Finished Cleanup of User's Temporary Files and Directories.
+Sep 17 11:23:08 MySQLServer systemd[2090]: Started Tracker file system data miner.
+Sep 17 11:23:09 MySQLServer systemd[2090]: Starting Tracker metadata extractor...
+Sep 17 11:23:09 MySQLServer systemd[2090]: Started Tracker metadata extractor.
+Sep 17 11:23:23 MySQLServer systemd[1]: systemd-hostnamed.service: Deactivated successfully.
