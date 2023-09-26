@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Description: Pull only Error Messages from /var/log/messages
+# Description: Ping host ips from variable, list and/or file
 # Author: Sebastian Jardi
-# Date: 15/09/2023
+# Date: 17/09/2023
 
 # Variables
 #host_ip=192.168.0.1
