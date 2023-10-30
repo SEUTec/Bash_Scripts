@@ -1,7 +1,14 @@
+.gitignore
+
 docs
+docs/*.*
+
 beersj02_linux-bash-and-system-administration.pdf
 rhel-5-6-7-cheatsheet.pdf
 Script_Pre_Defined.pdf
+UC-bdcb3bd9-d921-4683-b359-f303de512c55.pdf
+
+Creating-NIC-Bonding.docx
 Shell_Scripting_Syllabus.docx
 Unix_Shell_Scripting.docx
 root_script.bash
